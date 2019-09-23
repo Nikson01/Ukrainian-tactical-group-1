@@ -16,43 +16,64 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'utg' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$utg_description = get_bloginfo( 'description', 'display' );
-			if ( $utg_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $utg_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'utg' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+    <header class="header">
+        
+        <div class="header-top">
+            <div class="flex_container header-top-container">
+                <div class="call-back">
+                    <span>Пн-Пт: 9:00 - 18:00</span>
+                    <a class="call-back__link">Обратный звонок</a>
+                </div>
+                <ul class="page-list"> 
+                    <?php 
+                        $pages = get_pages(); 
+                        foreach( $pages as $page ){
+                            echo '<li class="page-item"><a class="page-link" href="' . get_page_link( $page->ID ) . '">'. esc_html($page->post_title) .'</a></li>';
+                        }
+                    ?>
+                </ul>
+                <div class="tel-phone">
+                    <a href="tel:+38 (066) 549-56-98">+38 (066) 549-56-98</a>
+                </div>
+            </div>
+        </div>
 
-	<div id="content" class="site-content">
+        
+       
+        <div class="header-bottom">
+            <div class="flex_container">
+                <div class="logo">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                        <img src="" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div class="flex_container">
+                <a class="header-menu__link">Каталог товаров</a>
+                <ul class="menu-list">
+                    <?php
+                        if( $menu_items = wp_get_nav_menu_items('top-general') ) { 
+                            $menu_list = '';
+                            foreach ( (array) $menu_items as $key => $menu_item ) {
+                                $title = $menu_item->title; 
+                                $url = $menu_item->url;
+                                $menu_list .= '<li class="menu-item"><a href="' . $url . '">' . $title . '</a></li>';
+                            }
+                            echo $menu_list;
+                        }
+                    ?>
+                </ul>
+            </div>
+        </div>
+        
+       
+    </header>

@@ -120,7 +120,16 @@ add_action( 'widgets_init', 'utg_widgets_init' );
  * Enqueue scripts and styles.
  */
 function utg_scripts() {
-	wp_enqueue_style( 'utg-style', get_stylesheet_uri() );
+
+    wp_enqueue_style( 'racingbase-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'googlefont-style', 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,600,700&display=swap' );
+	wp_enqueue_style( 'legacy-style', get_template_directory_uri() ."/styles/styles.min.css" );
+	wp_enqueue_style( 'slick-style', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css' );
+
+	wp_deregister_script( 'jquery' );
+	wp_enqueue_script( 'jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), null, true );
+	wp_enqueue_script( 'slick-js', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array(), null, true );
+	
 
 	wp_enqueue_script( 'utg-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

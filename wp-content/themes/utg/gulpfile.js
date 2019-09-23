@@ -29,7 +29,7 @@ if( fs.existsSync( './gulpenv.js' ) ){
     env = require( './gulpenv' );
 } else {
     env = {
-        proxyurl: 'digtrans'
+        proxyurl: 'ukrainian-tactical-group'
     }
 }
 

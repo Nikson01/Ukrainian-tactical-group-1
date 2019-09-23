@@ -1,6 +1,12 @@
 body{
-  font: 14px/1 'Montserrat', sans-serif;
-  color: $black;
+  font: 14px/1 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #343e48;
+  background-color: $body;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -79,96 +85,5 @@ input {
   &:focus {
     background: $white;
     opacity: 1;
-  }
-}
-
-.org-button{
-  background-color: $orange;
-  font-size: 14px;
-  color: $black;
-  display: inline-block;
-  text-align: center;
-  padding: 16px;
-  border-radius: 3px;
-  font-weight: 500!important;
-  cursor: pointer;
-
-  @media (max-width: 1024px){
-    width: 100%;
-  }
-
-  @media(max-width: 700px){
-    padding: 12px;
-    font-size: 12px;
-  }
-
-  &.call-back-button{
-    display: flex;
-    align-items: center;
-
-    &:before{
-      content: '';
-      width: 20px;
-      height: 20px;
-      display: block;
-      padding-right: 30px;
-      background: url('../images/callback.svg') no-repeat;
-    }
-  }
-
-  &:hover{
-    background-color: $hover-orange;
-    transition: background-color .2s ease;
-  }
-}
-
-.content{
-  overflow: hidden;
-}
-
-.title-name{
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 600;
-  display: block;
-  padding: 50px 0 20px 0px;
-
-  @media(max-width: 1024px){
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    padding: 50px 0 10px 0px;
-  }
-
-  @media(max-width: 700px){
-    font-size: 16px;
-  }
-}
-.single-title{
-  font-size: 28px;
-  line-height: 34px;
-  font-weight: bold;
-  display: block;
-}
-.logo {
-  a {
-    display: flex;
-    align-items: center;
-  }
-
-  &--text {
-    padding-left: 12px;
-  }
-}
-.breadcrumbs-top{
-  margin: -40px 0 30px 0;
-
-  @media(max-width: 700px){
-    margin: -20px 0 10px 0;
-  }
-
-  span{
-    font-size: 10px;
-    line-height: 12px;
   }
 }
