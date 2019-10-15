@@ -74,13 +74,101 @@
 
   &-bottom{
     background-color: $white;
-
+    padding: 10px 0;
     
   } 
 
-  .menu-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .menu{
+    &-list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      li{
+        position: relative;
+        width: 100%;
+        text-align: center;
+
+        a{
+          color: $white;
+          padding: 18px;
+          display: block;
+        }
+
+        &:after{
+          content: '';
+          width: 1px;
+          height: 20px;
+          background: rgba(255,255,255,.2);
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+
+        &:last-child{
+          &:after{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  &-menu{
+    &__link{
+      width: 310px;
+      padding: 18px;
+      color: $white;
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+      transition: background .3s ease;
+      background: rgba(255, 255, 255, .1);
+      box-shadow: 0 5px 16px rgba(0, 0, 0, 0.16);
+
+      &:hover{
+        color: $white;        
+      }
+
+      span{
+        width: 20px;
+        height: 1px;
+        background-color: $white;
+        display: block;
+        position: relative;
+        margin-right: 18px;
+
+        &:before,
+        &:after{
+          content: '';
+          width: 20px;
+          height: 1px;
+          background-color: $white;
+          position: absolute;
+        }
+
+        &:before{
+          top: -5px;
+        }
+
+        &:after{
+          bottom: -5px;
+        }
+      }
+
+      
+    }
+  }
+
+  .navigation{
+    background: linear-gradient(182deg, #3c6da6 0%, #1e3753 100%);
+
+    &-container{
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }

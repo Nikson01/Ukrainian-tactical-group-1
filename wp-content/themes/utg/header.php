@@ -45,20 +45,39 @@
         </div>
 
         
+
+
+
+
        
         <div class="header-bottom">
             <div class="flex_container">
                 <div class="logo">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                        <img src="" alt="">
+                        <img src="/wp-content/themes/utg/images/logo.png" alt="">
                     </a>
                 </div>
+                <ul class="header_lang">
+                    <?php pll_the_languages();?>
+                </ul>
+
+                <?php get_product_search_form();?>
             </div>
         </div>
 
+
+
+
+
+
+
+
         <div class="navigation">
-            <div class="flex_container">
-                <a class="header-menu__link">Каталог товаров</a>
+            <div class="flex_container navigation-container">
+                <a class="header-menu__link">
+                    <span></span>
+                    Каталог товаров
+                </a>
                 <ul class="menu-list">
                     <?php
                         if( $menu_items = wp_get_nav_menu_items('top-general') ) { 
