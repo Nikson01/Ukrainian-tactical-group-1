@@ -84,17 +84,116 @@
                     Каталог товаров
                 </a>
                 <ul class="menu-list">
-                    <?php
-                        if( $menu_items = wp_get_nav_menu_items('top-general') ) { 
-                            $menu_list = '';
-                            foreach ( (array) $menu_items as $key => $menu_item ) {
-                                $title = $menu_item->title; 
-                                $url = $menu_item->url;
-                                $menu_list .= '<li class="menu-item"><a href="' . $url . '">' . $title . '</a></li>';
-                            }
-                            echo $menu_list;
-                        }
-                    ?>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"></a>
+                        <ul class="sub-menu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
