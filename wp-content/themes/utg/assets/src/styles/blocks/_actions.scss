@@ -1,0 +1,22 @@
+.actions{
+  margin-top: 20px;
+  
+  &_link{
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
+    opacity: .9;
+    transition: box-shadow .3s ease, opacity .3s ease;
+
+    &:hover{
+      box-shadow: 0 12px 25px rgba(119, 74, 74, 0.45);
+      transition: box-shadow .3s ease, opacity .3s ease;
+      opacity: 1;
+    }
+  }
+  img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}

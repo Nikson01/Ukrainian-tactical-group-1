@@ -363,6 +363,72 @@ textarea {
 .header-bottom {
   background-color: #fff;
   padding: 10px 0; }
+  .header-bottom .flex_container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+            align-items: center; }
+
+.header-wishlist {
+  font-weight: 600;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  line-height: 0; }
+  .header-wishlist:before {
+    content: "\e905";
+    font-family: 'icomoon';
+    font-size: 23px;
+    font-weight: 500;
+    padding-right: 10px; }
+
+.header_lang {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  .header_lang li {
+    position: relative; }
+    .header_lang li a {
+      color: #adb4c2;
+      padding: 10px; }
+    .header_lang li:after {
+      content: '';
+      width: 1px;
+      height: 100%;
+      background-color: #c2cbd5;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0; }
+    .header_lang li:last-child:after {
+      display: none; }
+    .header_lang li.current-lang a {
+      color: #0070bb; }
+
+.header_basket {
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px; }
+  .header_basket span {
+    display: block;
+    color: #0070bb;
+    font-weight: 400;
+    padding-top: 5px; }
+  .header_basket:before {
+    content: '\e901';
+    font-family: 'icomoon';
+    font-size: 25px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
 
 .header .menu-list {
   display: -webkit-box;
@@ -379,7 +445,9 @@ textarea {
     .header .menu-list li a {
       color: #fff;
       padding: 18px;
-      display: block; }
+      display: block;
+      text-transform: uppercase;
+      font-weight: 600; }
     .header .menu-list li:after {
       content: '';
       width: 1px;
@@ -405,12 +473,13 @@ textarea {
   -webkit-transition: background .3s ease;
   transition: background .3s ease;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.16); }
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.16);
+  font-weight: 600; }
   .header-menu__link:hover {
     color: #fff; }
   .header-menu__link span {
     width: 20px;
-    height: 1px;
+    height: 2px;
     background-color: #fff;
     display: block;
     position: relative;
@@ -418,13 +487,13 @@ textarea {
     .header-menu__link span:before, .header-menu__link span:after {
       content: '';
       width: 20px;
-      height: 1px;
+      height: 2px;
       background-color: #fff;
       position: absolute; }
     .header-menu__link span:before {
-      top: -5px; }
+      top: -7px; }
     .header-menu__link span:after {
-      bottom: -5px; }
+      bottom: -7px; }
 
 .header .navigation {
   background: linear-gradient(182deg, #3c6da6 0%, #1e3753 100%); }
@@ -433,6 +502,55 @@ textarea {
     display: flex;
     -webkit-box-pack: justify;
             justify-content: space-between; }
+
+.screen-reader-text {
+  display: none; }
+
+.woocommerce-product-search {
+  position: relative;
+  width: 600px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  .woocommerce-product-search .search-field {
+    width: 100%;
+    background-color: #f8f9fc;
+    padding: 15px 45px 15px 15px;
+    opacity: 1;
+    color: #3c6da6; }
+  .woocommerce-product-search .search-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    cursor: pointer; }
+    .woocommerce-product-search .search-button:after {
+      content: '\e908';
+      font-family: 'icomoon';
+      font-size: 20px;
+      color: #3c6da6;
+      font-weight: 600; }
+
+.actions {
+  margin-top: 20px; }
+  .actions_link {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
+    opacity: .9;
+    -webkit-transition: box-shadow .3s ease, opacity .3s ease;
+    transition: box-shadow .3s ease, opacity .3s ease; }
+    .actions_link:hover {
+      box-shadow: 0 12px 25px rgba(119, 74, 74, 0.45);
+      -webkit-transition: box-shadow .3s ease, opacity .3s ease;
+      transition: box-shadow .3s ease, opacity .3s ease;
+      opacity: 1; }
+  .actions img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%; }
   @media (min-width: 768px) {
     .flex_container {
       padding: 0 20px; }

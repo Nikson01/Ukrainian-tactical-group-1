@@ -183,3 +183,51 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 
 
+
+
+
+register_post_type('actions', array(
+    'labels'             => array(
+      'name'               => 'Акции', // Основное название типа записи
+      'singular_name'      => 'Акции', // отдельное название записи типа Book
+      'add_new'            => 'Добавить акцию',
+      'add_new_item'       => 'Добавить новую акцию',
+      'edit_item'          => 'Редактировать акцию',
+      'new_item'           => 'Новая акцию',
+      'view_item'          => 'Посмотреть акцию',
+      'search_items'       => 'Найти акцию',
+      'not_found'          => 'Не найдено',
+      'not_found_in_trash' => 'В корзине ничего не найдено',
+      'parent_item_colon'  => '',
+      'menu_name'          => 'Акции'
+      ),
+    'public'             => true,
+    'publicly_queryable' => true,
+    'show_ui'            => true,
+    'show_in_menu'       => true,
+    'query_var'          => true,
+    'rewrite'            => true,
+    'capability_type'    => 'post',
+    'has_archive'        => false,
+    'hierarchical'       => false,
+    'menu_position'      => null,
+    'supports'            => array( 'title', 'comments'  )  // 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields',
+    ));
+
+
+
+
+
+
+
+
+
+
+
+
+add_action('wp_head', 'show_template'); // перед шапкой
+// add_action('wp_footer', 'show_template'); // в подвале
+function show_template(){
+  global $template;
+  echo $template;
+}

@@ -44,8 +44,7 @@
             </div>
         </div>
 
-        
-
+    
 
 
 
@@ -62,6 +61,12 @@
                 </ul>
 
                 <?php get_product_search_form();?>
+
+                <a class="header-wishlist" href="/wishpage/">Избранное</a>
+
+                <div class="header_basket">
+                    <b>Ваша корзина: <span>товаров (<?php echo WC()->cart->get_cart_contents_count();?>)</span></b>
+                </div>
             </div>
         </div>
 
