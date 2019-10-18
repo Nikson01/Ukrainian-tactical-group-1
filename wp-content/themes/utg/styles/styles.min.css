@@ -111,6 +111,9 @@ input {
     background: #fff;
     opacity: 1; }
 
+p {
+  line-height: 23px; }
+
 @font-face {
   font-family: "Manrope";
   src: url("../fonts/manrope-bold.woff2") format("woff2"), url("../fonts/manrope-bold.woff") format("woff"), url("../fonts/manrope-bold.otf") format("truetype");
@@ -547,6 +550,26 @@ textarea {
       transition: box-shadow .3s ease, opacity .3s ease;
       opacity: 1; }
   .actions img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%; }
+  .actions-single {
+    padding: 50px 0; }
+    .actions-single .flex_row {
+      -webkit-box-align: center;
+              align-items: center; }
+    .actions-single--image {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-align: center;
+              align-items: center; }
+      .actions-single--image img {
+        width: 100%;
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16); }
+    .actions-single span.period_data {
+      color: #afafaf; }
+  .actions-page img {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;

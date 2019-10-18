@@ -38,6 +38,15 @@ get_header( 'shop' ); ?>
             echo do_shortcode('[ti_wishlists_addtowishlist]');
             ?>
 
+
+         
+
+
+           
+                <span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> 
+                <span class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
+           
+
             
 
 		<?php endwhile; // end of the loop. ?>

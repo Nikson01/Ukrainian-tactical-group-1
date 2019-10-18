@@ -27,6 +27,10 @@
                             <a class="actions_link" href="<?=the_permalink( $post->ID )?>">
                                 <img src="<?php echo $image_action['url'];?>" alt="">
                             </a>
+
+                        
+
+
                         </div>
                         <?php endwhile; ?>
                 <?php endif; ?>
