@@ -122,7 +122,7 @@ add_action( 'widgets_init', 'utg_widgets_init' );
 function utg_scripts() {
 
     wp_enqueue_style( 'racingbase-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'googlefont-style', 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,600,700&display=swap' );
+    wp_enqueue_style( 'googlefont-style', 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,600,700&display=swap' );
 	wp_enqueue_style( 'legacy-style', get_template_directory_uri() ."/styles/styles.min.css" );
 	wp_enqueue_style( 'slick-style', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css' );
 
@@ -219,7 +219,33 @@ register_post_type('actions', array(
 
 
 
-
+    register_post_type('blog', array(
+        'labels'             => array(
+          'name'               => 'Блог', // Основное название типа записи
+          'singular_name'      => 'Блог', // отдельное название записи типа Book
+          'add_new'            => 'Добавить статью',
+          'add_new_item'       => 'Добавить новую статью',
+          'edit_item'          => 'Редактировать статью',
+          'new_item'           => 'Новая статья',
+          'view_item'          => 'Посмотреть статью',
+          'search_items'       => 'Найти статью',
+          'not_found'          => 'Не найдено',
+          'not_found_in_trash' => 'В корзине ничего не найдено',
+          'parent_item_colon'  => '',
+          'menu_name'          => 'Блог'
+          ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'            => array( 'title', 'comments'  )  // 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields',
+        ));
 
 
 

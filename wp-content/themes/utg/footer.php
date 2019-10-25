@@ -12,13 +12,21 @@
 ?>
 
 	
-
+    </div> <!-- END MAIN -->
+    
 	<footer class="footer">
 		
 	</footer>
-
+</div>
 
 <?php wp_footer(); ?>
+
+
+<script>
+    $(".menuContainer").hover(function(){
+        $("body").toggleClass("active");
+    })
+</script>
 
 </body>
 </html>
