@@ -1,7 +1,11 @@
 .header {
+  position: relative;
+  z-index: 3;
+  
   &-top {
     padding: 10px 0;
     border-bottom: 1px solid #e8e8e8;
+    background-color: $white;
 
     a {
       color: #adb4c2;
@@ -231,6 +235,7 @@
           height: 2px;
           background-color: $white;
           position: absolute;
+          left: 0;
         }
 
         &:before {
@@ -253,13 +258,16 @@
       justify-content: space-between;
 
       .menu-general {
+        display: none;
         position: absolute;
+        z-index: 3;
         top: 100%;
         box-shadow: 0px 10px 45px 0px rgba(0, 0, 0, 0.4);
-        max-width: 255px;
+        max-width: 310px;
         width: 100%;
         border-radius: 0px 0px 15px 15px;
         padding-bottom: 10px;
+        background-color: $white;
 
         .menu-item {
           padding: 10px;
@@ -345,5 +353,35 @@
         font-weight: 600;
       }
     }
+  }
+}
+
+
+.home .header .navigation-container .menu-general{
+  display: block;
+}
+
+.active .header{
+  position: relative;
+  z-index: 3;
+
+  .navigation-container .menu-general{
+    display: block;
+  }
+}
+
+.active{
+  position: relative;
+
+  &:after{
+    content: '';
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: .4;
   }
 }

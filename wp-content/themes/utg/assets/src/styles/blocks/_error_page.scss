@@ -1,0 +1,39 @@
+.error404{
+  .main{
+    display: flex;
+  }
+}
+
+.error{
+  &-page{
+      flex: 1;
+      align-items: center;
+      display: flex;
+
+    .flex_row{
+      align-items: center;
+    }
+  }
+  &-text{
+    b{
+      color: $darkBlue;
+      font-size: 36px;
+      font-weight: 700;
+    }
+    p{
+      color: $darkBlue;
+      margin: 25px 0;
+      max-width: 450px;
+    }
+    a{
+      background-color: #3c6da6;
+      text-transform: uppercase;
+      border-radius: 6px;
+      box-shadow: 0 3px 6px rgba(60, 109, 166, 0.5);
+      color: $white;
+      padding: 13px 48px;
+      font-weight: 700;
+      display: inline-block;
+    }
+  }
+}

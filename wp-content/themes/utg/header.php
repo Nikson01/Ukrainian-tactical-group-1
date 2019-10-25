@@ -21,6 +21,8 @@
 
 <body <?php body_class(); ?>>
 
+<div class="wrapper">
+
 
     <header class="header">
         
@@ -79,123 +81,126 @@
 
         <div class="navigation">
             <div class="flex_container navigation-container">
-                <button class="header-menu__link">
-                    <span></span>
-                    Каталог товаров
-                </button>
-                <ul class="menu-general">
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Новинки</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Оружие</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Распродажа</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Верхняя одежда</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Куртки</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Брюки, комбинезоны</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Обувь</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Тактика</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Фонари</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Оптические прицелы</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Рубашки</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>                    
-                    <a class="menu-general__btn" href="#"> Все категории товаров(23) </a>                    
-                </ul>
+                <div class="menuContainer">
+                    <button class="header-menu__link">
+                        <span></span>
+                        Каталог товаров
+                    </button>
+                    <ul class="menu-general">
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Новинки</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Оружие</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Распродажа</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Верхняя одежда</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Куртки</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Брюки, комбинезоны</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Обувь</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Тактика</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Фонари</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Оптические прицелы</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-item__name" href="#">Рубашки</a>
+                            <ul class="sub-menu">
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>                    
+                        <a class="menu-general__btn" href="#"> Все категории товаров(23) </a>                    
+                    </ul>
+                </div>
+                
                 <ul class="menu-list">
                     <?php
                         if( $menu_items = wp_get_nav_menu_items('top-general') ) { 
@@ -214,3 +219,4 @@
         
        
     </header>
+    <div class="main"><!-- START MAIN -->
