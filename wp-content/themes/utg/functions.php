@@ -452,3 +452,7 @@ function dimox_breadcrumbs() {
   
 	}
   } // end of dimox_breadcrumbs()
+
+
+
+  pll_register_string('social1', 'social2');

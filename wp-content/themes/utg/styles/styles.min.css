@@ -807,7 +807,141 @@ textarea {
     width: 150px;
     margin-bottom: 15px;
     display: block; }
-  @media (min-width: 768px) {
+
+.reviews-all {
+  background-color: #fff;
+  padding: 0 30px 30px 30px; }
+
+.reviews-page .date-client {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px; }
+  .reviews-page .date-client > div {
+    width: 50%; }
+    .reviews-page .date-client > div.testimonial-name {
+      color: #4a505f;
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: 700; }
+    .reviews-page .date-client > div:first-child {
+      -webkit-box-ordinal-group: 2;
+              order: 1; }
+    .reviews-page .date-client > div:nth-child(2) {
+      -webkit-box-ordinal-group: 4;
+              order: 3;
+      color: #a4a7af; }
+    .reviews-page .date-client > div:nth-child(3) {
+      -webkit-box-ordinal-group: 3;
+              order: 2;
+      text-align: right; }
+    .reviews-page .date-client > div:last-child {
+      -webkit-box-ordinal-group: 5;
+              order: 4;
+      text-align: right;
+      margin: 5px 0px 0 0;
+      color: #a4a7af; }
+  .reviews-page .date-client .strong-rating span.star:before {
+    color: #3c6da6; }
+
+.reviews-page .masonry {
+  height: inherit !important;
+  margin: 0 !important; }
+
+.reviews-description {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e8e8e8; }
+
+.reviews-back {
+  background-color: #fff;
+  padding: 30px; }
+  .reviews-back h1 {
+    text-align: center; }
+  .reviews-back .required-notice,
+  .reviews-back label.field-starreting,
+  .reviews-back span.required {
+    display: none; }
+  .reviews-back .strong-rating-wrapper {
+    text-align: center; }
+
+fieldset#wpmtst_starreting {
+  position: relative;
+  outline: none; }
+  fieldset#wpmtst_starreting:after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    background-color: #ffdd00;
+    position: absolute;
+    bottom: -10px;
+    right: 1px; }
+  fieldset#wpmtst_starreting:before {
+    content: '';
+    width: 25px;
+    height: 2px;
+    background-color: #ffdd00;
+    position: absolute;
+    bottom: -10px;
+    left: 3px; }
+
+.strong-form .form-field .after {
+  margin-top: 5px; }
+
+.strong-form textarea {
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  padding: 10px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  resize: none; }
+
+.strong-form-inner input {
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff; }
+
+.strong-form-inner label {
+  margin-bottom: 5px; }
+
+.strong-rating label {
+  float: left !important; }
+  .strong-rating label:before {
+    font-size: 1.75em !important;
+    color: #ffdd00 !important; }
+  .strong-rating label[for="starreting-star2"] {
+    margin-top: -15px; }
+  .strong-rating label[for="starreting-star3"] {
+    margin-top: -25px; }
+  .strong-rating label[for="starreting-star4"] {
+    margin-top: -15px; }
+
+.rating-reviews {
+  color: #343e48;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 38px;
+  display: block;
+  text-align: center;
+  margin-top: -18px; }
+
+.wpmtst-submit label {
+  width: 100%; }
+
+.wpmtst-submit input[type="submit"] {
+  box-shadow: 0 2px 12px rgba(60, 109, 166, 0.5);
+  border-radius: 6px;
+  background-color: #3c6da6;
+  color: #fff;
+  max-width: 320px;
+  width: 100%; }
+
+.testimonial-success {
+  text-align: center; }
+
+@media (min-width: 768px) {
     .flex_container {
       padding: 0 20px; }
     .flex_row {
@@ -818,7 +952,8 @@ textarea {
     width: calc(100% / 3); }
   .flex_col-tab--2-3 {
     width: calc(100% - (100% / 3)); } }
-  @media (min-width: 1024px) {
+
+@media (min-width: 1024px) {
     [class^="flex_col"] {
       padding: 0 10px; }
     .flex_container {
@@ -832,6 +967,7 @@ textarea {
     width: calc(100% - 75%); }
   .flex_col-desk--2-3 {
     width: calc(100% - (100% / 3)); } }
-  @media (max-width: 700px) {
+
+@media (max-width: 700px) {
     .flex_col-desk--2-4 {
       width: 100%; } }
