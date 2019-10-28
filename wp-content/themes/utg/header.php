@@ -84,14 +84,29 @@
                     Каталог товаров
                 </button>
                 <ul class="menu-general">
-                    <li class="menu-item">
-                        <a class="menu-item__name" href="#">Новинки</a>
-                        <ul class="sub-menu">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                    <li class="menu-item menu-item__news">
+                        <a class="menu-item__name" href="#">Новости</a>
+                        <ul class="sub-menu sub-menu__news">
+                            <li>
+                                <a href="#">Огнестрельное оружие</a>
+                                <ul class="under-sub-menu">
+                                    <li>
+                                        <a href="#">Гладкоствольное оружие</a>
+                                        <a href="#">Нарезное оружие</a>   
+                                        <a href="#">Пистолеты и револьверы</a> 
+                                    </li>                                    
+                                </ul>   
+                            </li>                                                         
+                            <li>
+                                <a href="#">Травматическое оружие</a>
+                                <ul class="under-sub-menu">
+                                    <li>
+                                        <a href="#">Гладкоствольное оружие</a>
+                                        <a href="#">Нарезное оружие</a>   
+                                        <a href="#">Пистолеты и револьверы</a> 
+                                    </li>                                    
+                                </ul>                                 
+                            </li>
                         </ul>
                     </li>
                     <li class="menu-item">
@@ -211,6 +226,18 @@
                 </ul>
             </div>
         </div>
+        <!-- <div class="flex_container">
+            <div class="flex_row">
+                <div class='flex_col--2-3'>
+                <div class="slider-head">
+                    <div><img src="/wp-content/themes/utg/images/Rectangle_2.png" alt=""></div>
+                    <div><img src="/wp-content/themes/utg/images/Rectangle_2.png" alt=""></div>
+                    <div><img src="/wp-content/themes/utg/images/Rectangle_2.png" alt=""></div>
+                </div>
+                </div>
+            </div>
+        </div>
+         -->
         
        
     </header>
