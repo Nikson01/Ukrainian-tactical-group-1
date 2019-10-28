@@ -5,8 +5,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
-    
+    height: 100%;    
 
     b{
       font-size: 25px;
@@ -100,6 +99,65 @@
 
     .flex_col--1-3{
       padding: 0;
+    }
+  }
+
+
+
+  &_description{
+    max-width: 860px;
+    width: 100%;
+    margin: 50px auto;
+
+    .blog_date{
+      position: static;
+    }
+  }
+
+  &-title{
+    color: #1c2126;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    border-left: 3px solid #3c6da6;
+    padding-left: 10px;
+  }
+
+  &-container{
+    background-color: $white;
+  }
+
+  &-single{
+    &-in{
+      display: flex;
+
+      img{
+        margin: 25px auto;
+      }
+    }
+    &-img{
+      padding: 20px;
+      
+      img{
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  &_social{
+    max-width: 330px;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span.social-text{
+      width: 150px;
+      margin-bottom: 15px;
+      display: block;
     }
   }
   
