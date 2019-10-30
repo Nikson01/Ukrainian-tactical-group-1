@@ -226,18 +226,7 @@
                 </ul>
             </div>
         </div>
-        <!-- <div class="flex_container">
-            <div class="flex_row">
-                <div class='flex_col--2-3'>
-                <div class="slider-head">
-                    <div><img src="/wp-content/themes/utg/images/Rectangle_2.png" alt=""></div>
-                    <div><img src="/wp-content/themes/utg/images/Rectangle_2.png" alt=""></div>
-                    <div><img src="/wp-content/themes/utg/images/Rectangle_2.png" alt=""></div>
-                </div>
-                </div>
-            </div>
-        </div>
-         -->
+       
         
        
     </header>
