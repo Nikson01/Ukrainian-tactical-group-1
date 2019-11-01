@@ -1,0 +1,187 @@
+2019-11-01T10:51:10+00:00 CRITICAL syntax error, unexpected end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\archive-product.php на строке 99
+
+2019-11-01T10:51:13+00:00 CRITICAL syntax error, unexpected end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\archive-product.php на строке 99
+
+2019-11-01T10:52:47+00:00 CRITICAL syntax error, unexpected end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\archive-product.php на строке 97
+
+2019-11-01T12:31:50+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T12:32:07+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T12:53:04+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T12:53:20+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T13:03:48+00:00 CRITICAL syntax error, unexpected end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\archive-product.php на строке 111
+
+2019-11-01T13:48:56+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T13:49:15+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T13:49:19+00:00 CRITICAL Uncaught Error: Call to a member function get_admin_language() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php:168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(129): Premmerce\Filter\Admin\Tabs\Taxonomy->switchToDefaultLanguage()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(156): Premmerce\Filter\Admin\Tabs\Taxonomy->getItems()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php(62): Premmerce\Filter\Admin\Tabs\Taxonomy->getTaxonomyConfig()
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\views\admin\options.php(23): Premmerce\Filter\Admin\Tabs\Taxonomy->render()
+#4 C:\Work\OSPanel\d в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\premmerce-woocommerce-product-filter\src\Admin\Tabs\Taxonomy.php на строке 168
+
+2019-11-01T14:35:45+00:00 CRITICAL syntax error, unexpected '.' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1155
+
+2019-11-01T14:38:31+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1168
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1168
+
+2019-11-01T14:39:12+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:39:50+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:40:07+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:40:15+00:00 CRITICAL syntax error, unexpected ';' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:40:22+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:42:08+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:44:09+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:46:10+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1169
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1169
+
+2019-11-01T14:54:22+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_product() in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php:112
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WC_Cart_Session->get_cart_from_session('')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(546): do_action('wp_loaded')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-blog-header.php(13): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work\OSPanel\domains\Ukrainian-tactic в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php на строке 112
+
+2019-11-01T14:54:48+00:00 CRITICAL Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\wc_placeholder_img_src() in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets.php:136
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): Automattic\WooCommerce\Blocks\Assets::print_script_block_data('')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\script-loader.php(2520): do_action('wp_print_footer...')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): wp_print_footer_scripts('')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Work\OSPanel\domains\Ukrainian-ta в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets.php на строке 136
+
+2019-11-01T15:20:55+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-query.php:412
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-query.php(348): WC_Query->product_query(Object(WP_Query))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WC_Query->pre_get_posts(Object(WP_Query))
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(531): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-query.php(1752): do_action_ref_array('pre_get_posts', Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-query.php(3403): WP_Query->get_posts()
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\w в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-query.php на строке 412
+
