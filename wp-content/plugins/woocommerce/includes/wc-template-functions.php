@@ -1131,7 +1131,8 @@ if ( ! function_exists( 'woocommerce_template_loop_category_title' ) ) {
 	function woocommerce_template_loop_category_title( $category ) {
 		?>
 		<h2 class="woocommerce-loop-category__title">
-			<?php
+            <?php
+            
 			echo esc_html( $category->name );
 
 			if ( $category->count > 0 ) {
@@ -1152,9 +1153,14 @@ if ( ! function_exists( 'woocommerce_template_loop_product_link_open' ) ) {
 
 		$link = apply_filters( 'woocommerce_loop_product_link', get_the_permalink(), $product );
 
-		echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+        echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+
+        
 	}
 }
+
+
+
 
 if ( ! function_exists( 'woocommerce_template_loop_product_link_close' ) ) {
 	/**
