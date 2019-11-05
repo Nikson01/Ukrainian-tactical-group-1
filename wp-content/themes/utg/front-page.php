@@ -100,23 +100,110 @@
                 </div>
             </div>
         </div>
-        <div class='flex_col--1-3'>
+        <div class='flex_col--1-3'>           
             <div class='news__second'>
-                <div class='news__second-blocks'>
-                    <a href="#"> Статьи </a>
+                <a href="#" class='news__second-blocks'>
+                    <span class='news-blue-link' href="#"> Статьи </span>
                     <h4> Как правильно настроить оптический прицел? </h4>
-                    <span> 17.02.2019 </span>
-                </div>
-                <div class='news__second-blocks'>
-                    <a href="#"> Статьи </a>
+                    <span class='news-date'> 17.02.2019 </span>
+                </a>
+                <a href="#" class='news__second-blocks'>
+                    <span class='news-blue-link' href="#"> Статьи </span>
                     <h4> Как правильно настроить оптический прицел? </h4>
-                    <span> 17.02.2019 </span>
-                </div>
+                    <span class='news-date'> 17.02.2019 </span>
+                </a>
             </div>            
         </div>
+        <div class='flex_col--1-3'>          
+            <a href="#" class='news__third'>
+                <span class='news-blue-link' href="#"> Статьи </span>
+                <h4> Как правильно настроить оптический прицел? </h4>
+                <span class='news__third-text-block'>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                </span>
+                <span class='news-date'> 17.02.2019 </span>
+            </a>          
+        </div>
+    </div>
+</div>
+
+<div class='reviews-block'>
+    <div class='reviews-block__title'>
+        <div>
+            <h2> Последние отзывы </h2>
+        </div>
+        <div>
+            <a href="#"> Все новости </a>
+        </div>
+    </div>
+    <div class='reviews-block-main'>
         <div class='flex_col--1-3'>
-            <div class='news__third'>
-                sdfs
+            <div class='reviews-inside-block'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block last-without-border'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
             </div>
         </div>
     </div>

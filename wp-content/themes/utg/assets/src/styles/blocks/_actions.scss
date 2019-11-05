@@ -191,15 +191,11 @@
 
     .news__second {
       .news__second-blocks {
+        display: block;
         height: 50%;
         padding: 25px 0px 0px 15px;
 
-        &:first-child {
-          background-image: url(/wp-content/themes/utg/images/background__news.png);
-          background-repeat: no-repeat;
-          background-position: center;
-        }
-        a {
+        .news-blue-link {
           font-family: "Open Sans";
           font-size: 12px;
           font-weight: 700;
@@ -216,7 +212,162 @@
           letter-spacing: 0.63px;
           text-transform: uppercase;
           color: $white;
-          margin: 50px 0px 50px;
+          margin: 50px 0px 70px;
+        }
+
+        &:first-child {
+          background-image: url(/wp-content/themes/utg/images/background__news.png);
+          background-repeat: no-repeat;
+          background-position: center;
+
+          .news-date {
+            font-family: "Open Sans";
+            font-size: 14px;
+            color: $white;
+          }
+        }
+
+        &:last-child {
+          background-image: url(/wp-content/themes/utg/images/background__news.png);
+          background-repeat: no-repeat;
+          background-position: center;
+
+          .news-date {
+            font-family: "Open Sans";
+            font-size: 14px;
+            color: $white;
+          }
+        }
+      }
+    }
+
+    .news__third {
+      background-image: url(/wp-content/themes/utg/images/News-img-last.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 25px 0px 0px 15px;
+
+      .news-blue-link {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 700;
+        color: $white;
+        background-color: #3c6da6;
+        border-radius: 4px;
+        padding: 5px;
+      }
+
+      h4 {
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: 700;
+        letter-spacing: 0.63px;
+        text-transform: uppercase;
+        color: $white;
+        margin: 290px 0px 50px;
+      }
+
+      .news__third-text-block {
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        color: $white;
+      }
+
+      .news-date {
+        font-family: "Open Sans";
+        font-size: 14px;
+        color: $white;
+      }
+    }
+  }
+}
+
+.reviews-block {
+  margin-top: 300px;
+
+  .reviews-block__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+
+    div {
+      &:first-child {
+        h2 {
+          font-size: 30px;
+          font-family: Montserrat;
+          color: #374864;
+          font-weight: 700;
+
+          &:hover {
+            cursor: default;
+          }
+        }
+      }
+
+      &:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 600;
+          color: #3c6da6;
+          border: 2px solid #3c6da6;
+          border-radius: 6px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .reviews-block-main {
+    display: flex;
+    border: 1px solid #e8e8e8;
+    padding: 25px 15px;
+
+    div {
+      &:last-child {
+        .last-without-border {
+          border-right: none;
+          padding-right: 0px;
+        }
+      }
+    }
+
+    .reviews-inside-block {
+      border-right: 1px solid #e8e8e8;
+      padding-right: 30px;
+
+      div {
+        &:first-child {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 15px;
+
+          span {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 700;
+          }
+          div {
+            display: flex;
+            flex-direction: row;
+          }
+        }
+
+        &:nth-child(2) {
+          display: flex;
+          justify-content: space-between;
+
+          span {
+            color: #a4a7af;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.35px;
+          }
         }
       }
     }
