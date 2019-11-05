@@ -243,7 +243,7 @@
             <div class="flex_col--1-4">
                 <div class="discount-products_block">
                     <a href="#">
-                        <div class="discount-discount">
+                        <div class="discount-top">
                             <span>-20%</span>
                             <span>ИЗБ</span>
                         </div>
@@ -264,11 +264,11 @@
                             <span>Код: 144800375412</span>
                         </div>
                         <div class="discount-price">
-                            <div>
+                            <div class="discount-price__first-block">
                                 <span class='discount-old_price'><strike>1400</strike></span>
                                 <span class='discount-new_price'>1032 <span>₴</span> </span>
                             </div>
-                            <div>
+                            <div class="discount-price__second-block">
                                 <button> Купить</button>
                             </div>
                         </div>
@@ -404,7 +404,7 @@
                             <span>Код: 144800375412</span>
                         </div>
                         <div class="discount-price">
-                            <div class>
+                            <div>                                   
                                 <span class='discount-old_price'><strike>1400</strike></span>
                                 <span class='discount-new_price'>1032 <span>₴</span> </span>
                             </div>
