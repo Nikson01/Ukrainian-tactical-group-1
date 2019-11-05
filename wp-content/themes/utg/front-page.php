@@ -8,6 +8,33 @@
 
 <div class="flex_container">
 
+    <div class="actions">
+            <div class="flex_row">
+            
+        
+            <?php
+                $params = array(
+                    'post_type' => 'actions',
+                    'posts_per_page' => 3,
+                );
+                $query = new WP_Query( $params );
+                ?>
+                <?php if($query->have_posts()): ?>
+                        <?php while ($query->have_posts()): $query->the_post() ?>
+                        <?php $image_action = get_field('image_action');
+                            $desc_action = get_field('desc_action ');
+                                                        
+                        ?>
+                        <div class="flex_col--1-3">
+                            <a class="actions_link" href="<?=the_permalink( $post->ID )?>">
+                                <img src="<?php echo $image_action['url'];?>" alt="">
+                            </a>
+                        </div>
+                        <?php endwhile; ?>
+                <?php endif; ?>
+        </div>
+    </div>
+
 <div class='reasons'>
     <div class="flex_row">
         <div class='flex_col'>
@@ -209,33 +236,33 @@
     </div>
 </div>
 
+<div class='seo-text__block'>
+    <div class="flex_row">
+        <div class='flex_col--1-3'>
+            <div class="seo-text__left">
+                <img src="/wp-content/themes/utg/images/img-10.png" alt="">
+                <div class="seo-text__social">
+                    <a href="#"> <span class="icon-facebook"></span> </a>
+                    <a href="#"> <span class="icon-instagram"></span> </a>
+                    <a href="#"> <span class="icon-twitter"></span> </a>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--2-3'>
+            <div class="seo-text__right">
+                <h3> Заголовок SЕО-текста </h3>
+                <div>
+                    <p>Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. Таким образом сложившаяся структура организации требуют определения и уточнения модели развития. Таким образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации соответствующий условий активизации. Разнообразный и богатый опыт новая модель организационной деятельности требуют от нас анализа систем массового участия. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Разнообразный и богатый опыт реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.</p>
 
-    <div class="actions">
-        <div class="flex_row">
-            
-        
-            <?php
-                $params = array(
-                    'post_type' => 'actions',
-                    'posts_per_page' => 3,
-                );
-                $query = new WP_Query( $params );
-                ?>
-                <?php if($query->have_posts()): ?>
-                        <?php while ($query->have_posts()): $query->the_post() ?>
-                        <?php $image_action = get_field('image_action');
-                            $desc_action = get_field('desc_action ');
-                                                        
-                        ?>
-                        <div class="flex_col--1-3">
-                            <a class="actions_link" href="<?=the_permalink( $post->ID )?>">
-                                <img src="<?php echo $image_action['url'];?>" alt="">
-                            </a>
-                        </div>
-                        <?php endwhile; ?>
-                <?php endif; ?>
+                    <p>Таким образом сложившаяся структура организации позволяет оценить значение направлений прогрессивного развития. Разнообразный и богатый опыт рамки и место обучения кадров представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Равным образом консультация с широким активом способствует подготовки и реализации систем массового участия.</p>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+
+ 
     
 </div>
 
