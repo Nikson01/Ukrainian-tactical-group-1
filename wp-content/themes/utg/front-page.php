@@ -285,6 +285,7 @@
         <div class='flex_col--1-3'>           
             <div class='news__second'>
                 <a href="#" class='news__second-blocks'>
+                    <img src="/wp-content/themes/utg/images/background__news.png" alt="">
                     <span class='news-blue-link' href="#"> Статьи </span>
                     <h4> Как правильно настроить оптический прицел? </h4>
                     <span class='news-date'> 17.02.2019 </span>
