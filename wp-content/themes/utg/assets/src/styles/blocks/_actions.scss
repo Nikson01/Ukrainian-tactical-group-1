@@ -90,6 +90,14 @@
       background-color: #3c6da6;
       border-radius: 6px;
     }
+
+    .without-margin {
+      margin: 0;
+    }
+
+    .without-padding {
+      padding: 0;
+    }
     .discount-products_block {
       border: 1px solid #e8e8e8;
 
@@ -120,6 +128,9 @@
         }
 
         .discount-category {
+          display: flex;
+          justify-content: flex-end;
+
           span {
             font-family: "Open Sans";
             font-size: 14px;
@@ -262,7 +273,8 @@
         }
       }
       &:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
+        border: 1px solid $white;
       }
     }
   }
