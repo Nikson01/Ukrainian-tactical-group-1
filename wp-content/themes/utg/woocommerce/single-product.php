@@ -21,6 +21,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
+<div class="flex_container">
+
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
@@ -37,6 +40,15 @@ get_header( 'shop' ); ?>
             
             echo do_shortcode('[ti_wishlists_addtowishlist]');
             ?>
+
+
+         
+
+
+           
+                <span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> 
+                <span class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
+           
 
             
 
@@ -58,7 +70,13 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
 		do_action( 'woocommerce_sidebar' );
-	?>
+    ?>
+    
+
+
+
+    </div>
+
 
 <?php get_footer( 'shop' );
 

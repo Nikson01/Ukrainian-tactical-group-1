@@ -131,3 +131,20 @@
     }
   }
 }
+
+.content {
+  width: 100%;
+  flex-grow: 1;
+  padding: 0 10px;
+
+  &-settings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    .woocommerce-notices-wrapper{
+      display: none;
+    }
+  }
+}

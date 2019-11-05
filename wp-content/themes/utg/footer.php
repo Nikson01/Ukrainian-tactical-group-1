@@ -12,13 +12,26 @@
 ?>
 
 	
-
+    </div> <!-- END MAIN -->
+    
 	<footer class="footer">
 		
 	</footer>
-
+</div>
 
 <?php wp_footer(); ?>
 
+
+<script>
+    $(".menuContainer").hover(function(){
+        $("body").toggleClass("active");
+    })
+</script>
+<script>
+$('.discount-products-gallery').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1
+});</script>
 </body>
 </html>

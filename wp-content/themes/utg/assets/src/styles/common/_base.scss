@@ -59,7 +59,8 @@ button{
 
 .main {
 	flex-grow: 1;
-	width: 100%;
+  width: 100%;
+  position: relative;
 }
 
 input {
@@ -86,4 +87,8 @@ input {
     background: $white;
     opacity: 1;
   }
+}
+
+p{
+  line-height: 23px;
 }

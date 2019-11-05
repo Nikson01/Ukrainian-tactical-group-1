@@ -29,14 +29,18 @@
                             <a class="actions_link" href="<?=the_permalink( $post->ID )?>">
                                 <img src="<?php echo $image_action['url'];?>" alt="">
                             </a>
+
+                        
+
+
                         </div>
                         <?php endwhile; ?>
                 <?php endif; ?>
         </div>
     </div>
 
-<div class='popular-products'>  
-    <div class="popular-products__title">
+<!-- <div class='discount-slider__block'>
+    <div class="discount-slider__title">
         <div>
             <h2> Популярные товары </h2>
         </div>
@@ -44,35 +48,35 @@
             <a href="#"> Все новинки </a>
         </div>
     </div>
-    <div class="popular-products_line">
-        <div class="flex_row ">
+    <div class="discount-products_line">
+        <div class="flex_row discount-products-gallery">
             <div class="flex_col--1-4">
-                <div class="popular-products_block">
+                <div class="discount-products_block">
                     <a href="#">
-                        <div class="popular-discount">
+                        <div class="discount-discount">
                             <span>-20%</span>
                             <span>ИЗБ</span>
                         </div>
-                        <div class="popular-img">
+                        <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
                         </div>
-                        <div class="popular-category">
+                        <div class="discount-category">
                             <span>Гладкоствольное оружие</span>
                         </div>
-                        <div class="popular-name">
+                        <div class="discount-name">
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
-                        <div class="popular-rate">
+                        <div class="discount-rate">
                             <span>ЗВезды</span>
                             <span>10 отзывов</span>
                         </div>
-                        <div class="popular-code">
+                        <div class="discount-code">
                             <span>Код: 144800375412</span>
                         </div>
-                        <div class="popular-price">
+                        <div class="discount-price">
                             <div>
-                                <span class='popular-old_price'>1400</span>
-                                <span class='popular-new_price'>1032 ₴</span>
+                                <span class='discount-old_price'>1400</span>
+                                <span class='discount-new_price'>1032 ₴</span>
                             </div>
                             <div>
                                 <button> Купить</button>
@@ -82,32 +86,32 @@
                 </div>
             </div>
             <div class="flex_col--1-4">
-                <div class="popular-products_block">
+                <div class="discount-products_block">
                     <a href="#">
-                        <div class="popular-discount">
+                        <div class="discount-discount">
                             <span>-20%</span>
                             <span>ИЗБ</span>
                         </div>
-                        <div class="popular-img">
+                        <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
                         </div>
-                        <div class="popular-category">
+                        <div class="discount-category">
                             <span>Гладкоствольное оружие</span>
                         </div>
-                        <div class="popular-name">
+                        <div class="discount-name">
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
-                        <div class="popular-rate">
+                        <div class="discount-rate">
                             <span>ЗВезды</span>
                             <span>10 отзывов</span>
                         </div>
-                        <div class="popular-code">
+                        <div class="discount-code">
                             <span>Код: 144800375412</span>
                         </div>
-                        <div class="popular-price">
+                        <div class="discount-price">
                             <div>
-                                <span class='popular-old_price'>1400</span>
-                                <span class='popular-new_price'>1032 ₴</span>
+                                <span class='discount-old_price'>1400</span>
+                                <span class='discount-new_price'>1032 ₴</span>
                             </div>
                             <div>
                                 <button> Купить</button>
@@ -117,32 +121,32 @@
                 </div>
             </div>
             <div class="flex_col--1-4">
-                <div class="popular-products_block">
+                <div class="discount-products_block">
                     <a href="#">
-                        <div class="popular-discount">
+                        <div class="discount-discount">
                             <span>-20%</span>
                             <span>ИЗБ</span>
                         </div>
-                        <div class="popular-img">
+                        <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
                         </div>
-                        <div class="popular-category">
+                        <div class="discount-category">
                             <span>Гладкоствольное оружие</span>
                         </div>
-                        <div class="popular-name">
+                        <div class="discount-name">
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
-                        <div class="popular-rate">
+                        <div class="discount-rate">
                             <span>ЗВезды</span>
                             <span>10 отзывов</span>
                         </div>
-                        <div class="popular-code">
+                        <div class="discount-code">
                             <span>Код: 144800375412</span>
                         </div>
-                        <div class="popular-price">
+                        <div class="discount-price">
                             <div>
-                                <span class='popular-old_price'>1400</span>
-                                <span class='popular-new_price'>1032 ₴</span>
+                                <span class='discount-old_price'>1400</span>
+                                <span class='discount-new_price'>1032 ₴</span>
                             </div>
                             <div>
                                 <button> Купить</button>
@@ -152,32 +156,257 @@
                 </div>
             </div>
             <div class="flex_col--1-4">
-                <div class="popular-products_block">
+                <div class="discount-products_block">
                     <a href="#">
-                        <div class="popular-discount">
+                        <div class="discount-discount">
                             <span>-20%</span>
                             <span>ИЗБ</span>
                         </div>
-                        <div class="popular-img">
+                        <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
                         </div>
-                        <div class="popular-category">
+                        <div class="discount-category">
                             <span>Гладкоствольное оружие</span>
                         </div>
-                        <div class="popular-name">
+                        <div class="discount-name">
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
-                        <div class="popular-rate">
+                        <div class="discount-rate">
                             <span>ЗВезды</span>
                             <span>10 отзывов</span>
                         </div>
-                        <div class="popular-code">
+                        <div class="discount-code">
                             <span>Код: 144800375412</span>
                         </div>
-                        <div class="popular-price">
+                        <div class="discount-price">
                             <div>
-                                <span class='popular-old_price'>1400</span>
-                                <span class='popular-new_price'>1032 ₴</span>
+                                <span class='discount-old_price'>1400</span>
+                                <span class='discount-new_price'>1032 ₴</span>
+                            </div>
+                            <div>
+                                <button> Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex_col--1-4">
+                <div class="discount-products_block">
+                    <a href="#">
+                        <div class="discount-discount">
+                            <span>-20%</span>
+                            <span>ИЗБ</span>
+                        </div>
+                        <div class="discount-img">
+                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
+                        </div>
+                        <div class="discount-category">
+                            <span>Гладкоствольное оружие</span>
+                        </div>
+                        <div class="discount-name">
+                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
+                        </div>
+                        <div class="discount-rate">
+                            <span>ЗВезды</span>
+                            <span>10 отзывов</span>
+                        </div>
+                        <div class="discount-code">
+                            <span>Код: 144800375412</span>
+                        </div>
+                        <div class="discount-price">
+                            <div>
+                                <span class='discount-old_price'>1400</span>
+                                <span class='discount-new_price'>1032 ₴</span>
+                            </div>
+                            <div>
+                                <button> Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class='discount-products'>  
+    <div class="discount-products__title">
+        <div>
+            <h2> Скидки и специальные предложения </h2>
+        </div>
+        <div>
+            <a href="#"> Смотреть все </a>
+        </div>
+    </div>
+    <div class="discount-products_line">
+        <div class="flex_row discount-products-gallery">            
+            <div class="flex_col--1-4">
+                <div class="discount-products_block">
+                    <a href="#">
+                        <div class="discount-discount">
+                            <span>-20%</span>
+                            <span>ИЗБ</span>
+                        </div>
+                        <div class="discount-img">
+                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
+                        </div>
+                        <div class="discount-category">
+                            <span>Гладкоствольное оружие</span>
+                        </div>
+                        <div class="discount-name">
+                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
+                        </div>
+                        <div class="discount-rate">
+                            <span>ЗВезды</span>
+                            <span>10 отзывов</span>
+                        </div>
+                        <div class="discount-code">
+                            <span>Код: 144800375412</span>
+                        </div>
+                        <div class="discount-price">
+                            <div>
+                                <span class='discount-old_price'><strike>1400</strike></span>
+                                <span class='discount-new_price'>1032 <span>₴</span> </span>
+                            </div>
+                            <div>
+                                <button> Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex_col--1-4">
+                <div class="discount-products_block">
+                    <a href="#">
+                        <div class="discount-discount">
+                            <span>-20%</span>
+                            <span>ИЗБ</span>
+                        </div>
+                        <div class="discount-img">
+                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
+                        </div>
+                        <div class="discount-category">
+                            <span>Гладкоствольное оружие</span>
+                        </div>
+                        <div class="discount-name">
+                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
+                        </div>
+                        <div class="discount-rate">
+                            <span>ЗВезды</span>
+                            <span>10 отзывов</span>
+                        </div>
+                        <div class="discount-code">
+                            <span>Код: 144800375412</span>
+                        </div>
+                        <div class="discount-price">
+                            <div>
+                                <span class='discount-old_price'><strike>1400</strike></span>
+                                <span class='discount-new_price'>1032 <span>₴</span> </span>
+                            </div>
+                            <div>
+                                <button> Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex_col--1-4">
+                <div class="discount-products_block">
+                    <a href="#">
+                        <div class="discount-discount">
+                            <span>-20%</span>
+                            <span>ИЗБ</span>
+                        </div>
+                        <div class="discount-img">
+                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
+                        </div>
+                        <div class="discount-category">
+                            <span>Гладкоствольное оружие</span>
+                        </div>
+                        <div class="discount-name">
+                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
+                        </div>
+                        <div class="discount-rate">
+                            <span>ЗВезды</span>
+                            <span>10 отзывов</span>
+                        </div>
+                        <div class="discount-code">
+                            <span>Код: 144800375412</span>
+                        </div>
+                        <div class="discount-price">
+                            <div>
+                                <span class='discount-old_price'><strike>1400</strike></span>
+                                <span class='discount-new_price'>1032 <span>₴</span> </span>
+                            </div>
+                            <div>
+                                <button> Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex_col--1-4">
+                <div class="discount-products_block">
+                    <a href="#">
+                        <div class="discount-discount">
+                            <span>-20%</span>
+                            <span>ИЗБ</span>
+                        </div>
+                        <div class="discount-img">
+                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
+                        </div>
+                        <div class="discount-category">
+                            <span>Гладкоствольное оружие</span>
+                        </div>
+                        <div class="discount-name">
+                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
+                        </div>
+                        <div class="discount-rate">
+                            <span>ЗВезды</span>
+                            <span>10 отзывов</span>
+                        </div>
+                        <div class="discount-code">
+                            <span>Код: 144800375412</span>
+                        </div>
+                        <div class="discount-price">
+                            <div>
+                                <span class='discount-old_price'><strike>1400</strike></span>
+                                <span class='discount-new_price'>1032 <span>₴</span> </span>
+                            </div>
+                            <div>
+                                <button> Купить</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex_col--1-4">
+                <div class="discount-products_block">
+                    <a href="#">
+                        <div class="discount-discount">
+                            <span>-20%</span>
+                            <span>ИЗБ</span>
+                        </div>
+                        <div class="discount-img">
+                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
+                        </div>
+                        <div class="discount-category">
+                            <span>Гладкоствольное оружие</span>
+                        </div>
+                        <div class="discount-name">
+                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
+                        </div>
+                        <div class="discount-rate">
+                            <span>ЗВезды</span>
+                            <span>10 отзывов</span>
+                        </div>
+                        <div class="discount-code">
+                            <span>Код: 144800375412</span>
+                        </div>
+                        <div class="discount-price">
+                            <div class>
+                                <span class='discount-old_price'><strike>1400</strike></span>
+                                <span class='discount-new_price'>1032 <span>₴</span> </span>
                             </div>
                             <div>
                                 <button> Купить</button>
