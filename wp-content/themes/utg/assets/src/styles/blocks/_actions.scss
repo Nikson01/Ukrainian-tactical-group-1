@@ -1,3 +1,133 @@
+.popular-products {
+  margin-top: 150px;
+
+  .popular-products__title {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    padding: 0px 25px;
+
+    div {
+      &:first-child {
+        h2 {
+          font-size: 30px;
+          font-family: Montserrat;
+          color: #374864;
+          font-weight: 700;
+
+          &:hover {
+            cursor: default;
+          }
+        }
+      }
+
+      &:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 600;
+          color: #3c6da6;
+          border: 2px solid #3c6da6;
+          border-radius: 6px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .popular-products_line {
+    .popular-products_block {
+      border: 1px solid #e8e8e8;
+      a {
+        display: block;
+        padding: 25px 15px;
+
+        .popular-discount {
+          display: flex;
+          justify-content: space-between;
+
+          span {
+            &:first-child {
+              font-family: "Open Sans";
+              font-size: 14px;
+              font-weight: 700;
+              color: #2a3143;
+            }
+          }
+        }
+
+        .popular-img {
+          margin: 50px 0px;
+
+          img {
+            margin: auto;
+          }
+        }
+
+        .popular-category {
+          span {
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400;
+            color: #4a5060;
+            opacity: 0.5;
+          }
+        }
+
+        .popular-name {
+          margin: 15px 0px;
+          span {
+            font-family: "Open Sans";
+            font-size: 16px;
+            color: #2a2c31;
+            font-weight: 600;
+          }
+        }
+
+        .popular-rate {
+          display: flex;
+          justify-content: space-between;
+
+          span {
+            &:first-child {
+            }
+
+            &:last-child {
+              font-family: "Open Sans";
+              color: #afafaf;
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .popular-code {
+          display: flex;
+          justify-content: flex-end;
+          margin: 10px 0px;
+
+          span {
+            font-family: "Open Sans";
+            color: #afafaf;
+            font-weight: 400;
+            font-size: 12px;
+          }
+        }
+
+        .popular-price {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
+
 .reasons {
   margin-top: 600px;
 
