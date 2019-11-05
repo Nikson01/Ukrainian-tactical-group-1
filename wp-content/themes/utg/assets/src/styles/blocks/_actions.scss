@@ -291,74 +291,142 @@
 
   .reasons__block-first {
     position: relative;
+    background-image: linear-gradient(180deg, #3b4d6e 0%, #2e2d30 100%);
+    padding: 20px 0px 20px 25px;
+    max-height: 270px;
+    height: 270px;
 
-    &:first-child {
+    a {
       img {
-        &:first-child {
-          position: absolute;
-          z-index: -1;
-          height: 265px;
-          width: inherit;
-        }
-        &:nth-child(2) {
-          position: absolute;
-          z-index: -1;
-          opacity: 0.1;
-          left: 0;
-          bottom: 0;
-        }
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        opacity: 0.2;
       }
-      .reasons__block-first-inside {
-        padding-left: 50px;
-        padding-top: 70px;
+
+      .reasons__inside-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
 
         div {
-          color: $white;
-
           &:first-child {
-            margin-bottom: 30px;
-
             span {
-              font-family: Manrope;
-
-              &:hover {
-                cursor: default;
-              }
+              color: $white;
 
               &:first-child {
                 font-size: 90px;
               }
 
               &:last-child {
+                font-family: Manrope;
                 font-size: 16px;
-                font-weight: 700;
+                font-weight: 600;
               }
             }
           }
 
           &:nth-child(2) {
-            margin-bottom: 30px;
-
+            max-width: 80%;
             span {
+              color: $white;
               font-family: Manrope;
               font-size: 16px;
               font-weight: 700;
-
-              &:hover {
-                cursor: default;
-              }
+              letter-spacing: 0.4px;
             }
           }
+
           &:last-child {
-            a {
-              font-family: "Open Sans";
+            span {
               color: $white;
+              font-family: "Open Sans";
               font-size: 14px;
               font-weight: 600;
+            }
+            .icon-qrcode {
+              font-family: "icomoon";
+              &:before {
+                content: "\e938";
+              }
             }
           }
         }
       }
+    }
+
+    // &:first-child {
+    //   img {
+    //     &:first-child {
+    //       position: absolute;
+    //       z-index: -1;
+    //       height: 265px;
+    //       width: inherit;
+    //     }
+    //     &:nth-child(2) {
+    //       position: absolute;
+    //       z-index: -1;
+    //       opacity: 0.1;
+    //       left: 0;
+    //       bottom: 0;
+    //     }
+    //   }
+    //   .reasons__block-first-inside {
+    //     padding-left: 50px;
+    //     padding-top: 70px;
+
+    //     div {
+    //       color: $white;
+
+    //       &:first-child {
+    //         margin-bottom: 30px;
+
+    //   span {
+    //     font-family: Manrope;
+
+    //     &:hover {
+    //       cursor: default;
+    //     }
+
+    //     &:first-child {
+    //       font-size: 90px;
+    //     }
+
+    //     &:last-child {
+    //       font-size: 16px;
+    //       font-weight: 700;
+    //     }
+    //   }
+    // }
+
+    //       &:nth-child(2) {
+    //         margin-bottom: 30px;
+
+    //         span {
+    //           font-family: Manrope;
+    //           font-size: 16px;
+    //           font-weight: 700;
+
+    //           &:hover {
+    //             cursor: default;
+    //           }
+    //         }
+    //       }
+    //       &:last-child {
+    //         a {
+    //           font-family: "Open Sans";
+    //           color: $white;
+    //           font-size: 14px;
+    //           font-weight: 600;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
   }
   .reasons__block {

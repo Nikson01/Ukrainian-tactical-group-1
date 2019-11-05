@@ -728,21 +728,23 @@
     </div>
     <div class='flex_row'>
         <div class='flex_col--1-4'>
-            <div class='reasons__block-first'>
-                <img src="/../wp-content/themes/utg/images/Path_3491.png">
-                <img src="/../wp-content/themes/utg/images/Path_111.png">
-                <div class='reasons__block-first-inside'>
-                    <div> 
-                        <span> 5 </span>   
-                        <span> Лет </span>             
+            <div class='reasons__block-first'>  
+                <a href="#">            
+                    <img src="/../wp-content/themes/utg/images/Path_111.png">
+                    <div class="reasons__inside-block">                  
+                        <div> 
+                            <span> 5 </span>   
+                            <span> Лет </span>             
+                        </div>
+                        <div> 
+                            <span> Занимаемся продажей оружия </span>
+                        </div>
+                        <div> 
+                        <span>Подробнее о компании</span>  
+                        <span class="icon-calendar"></span>
+                        </div>
                     </div>
-                    <div> 
-                        <span> Занимаемся продажей оружия </span>
-                    </div>
-                    <div> 
-                        <a href="#"> Подробнее о компании </a>
-                    </div>
-                </div>
+                </a>                 
             </div>
         </div>
         <div class='flex_col--1-4'>
