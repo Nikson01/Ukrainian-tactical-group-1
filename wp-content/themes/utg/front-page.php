@@ -797,14 +797,14 @@
 </div>
 
 <div class='reasons'>
-    <div class="flex_row">
+    <div class="flex_row without-margin">
         <div class='flex_col without-padding'>
             <div class='reasons__article'>
                 <h2> Почему  стоит покупать у нас? </h2>
             </div>               
         </div>
     </div>
-    <div class='flex_row'>
+    <div class='flex_row without-margin'>
         <div class='flex_col--1-4 without-padding'>
             <div class='reasons__block-first'>  
                 <a href="#">            
@@ -929,20 +929,89 @@
             <h2> Последние отзывы </h2>
         </div>
         <div>
-            <a href="#"> Все новости </a>
+            <a href="#"> Все отзывы </a>
         </div>
     </div>
-    <div class='reviews-block-main'>
+    <div class='reviews-block-main reviews-slick'>
         <div class='flex_col--1-3'>
             <div class='reviews-inside-block'>
                 <div>
                     <span> Игорь Корнелюк </span>
                     <div>
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block last-without-border'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
                     </div>
                 </div>
                 <div>

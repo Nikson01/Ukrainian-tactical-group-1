@@ -41,7 +41,7 @@
 }
 
 .discount-products {
-  margin-top: 150px;
+  margin-top: 50px;
 
   .discount-products__title {
     display: flex;
@@ -78,6 +78,12 @@
           border: 2px solid #3c6da6;
           border-radius: 6px;
           padding: 10px;
+          transition: 0.3s ease;
+
+          &:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s ease;
+          }
         }
       }
     }
@@ -282,7 +288,7 @@
 }
 
 .reasons {
-  margin-top: 600px;
+  margin-top: 80px;
 
   .without-margin {
     margin: 0;
@@ -400,7 +406,7 @@
 }
 
 .news__block {
-  margin-top: 300px;
+  margin-top: 80px;
 
   .news__block-title {
     display: flex;
@@ -435,6 +441,12 @@
           border: 2px solid #3c6da6;
           border-radius: 6px;
           padding: 10px;
+          transition: 0.3s ease;
+
+          &:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s ease;
+          }
         }
       }
     }
@@ -663,7 +675,7 @@
 }
 
 .reviews-block {
-  margin-top: 300px;
+  margin-top: 80px;
 
   .reviews-block__title {
     display: flex;
@@ -697,6 +709,12 @@
           border: 2px solid #3c6da6;
           border-radius: 6px;
           padding: 10px;
+          transition: 0.3s ease;
+
+          &:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s ease;
+          }
         }
       }
     }
@@ -755,7 +773,7 @@
 
 .seo-text__block {
   width: 70%;
-  margin: 100px auto 100px;
+  margin: 80px auto 100px;
   border: 1px solid #e8e8e8;
   padding-top: 70px;
   padding-bottom: 50px;
@@ -813,7 +831,7 @@
 }
 
 .actions {
-  margin-top: 800px;
+  margin-top: 500px;
 
   &_link {
     border-radius: 6px;

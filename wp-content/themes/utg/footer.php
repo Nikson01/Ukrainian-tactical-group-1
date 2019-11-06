@@ -32,6 +32,13 @@ $('.discount-products-gallery').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1
-});</script>
+});
+$('.reviews-slick').slick({
+  infinite: true,
+  slidesToShow: 3,
+  dots: true,
+  slidesToScroll: 3
+});
+</script>
 </body>
 </html>
