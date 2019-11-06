@@ -245,7 +245,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -257,7 +257,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -280,7 +286,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -292,7 +298,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -315,7 +327,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -327,7 +339,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -350,7 +368,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -362,7 +380,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -385,7 +409,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -397,7 +421,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -435,7 +465,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -447,7 +477,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -470,7 +506,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -482,7 +518,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -505,7 +547,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -517,7 +559,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -540,7 +588,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -552,7 +600,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -579,7 +633,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -591,7 +645,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -614,7 +674,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -626,7 +686,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -649,7 +715,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -661,7 +727,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -684,7 +756,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span>ИЗБ</span>
+                            <span class='icon-favorites-star'></span>
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -696,7 +768,13 @@
                             <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
                         </div>
                         <div class="discount-rate">
-                            <span>ЗВезды</span>
+                            <div>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                                <span class='icon-star-product'></span>
+                            </div>
                             <span>10 отзывов</span>
                         </div>
                         <div class="discount-code">
@@ -720,14 +798,14 @@
 
 <div class='reasons'>
     <div class="flex_row">
-        <div class='flex_col'>
+        <div class='flex_col without-padding'>
             <div class='reasons__article'>
                 <h2> Почему  стоит покупать у нас? </h2>
             </div>               
         </div>
     </div>
     <div class='flex_row'>
-        <div class='flex_col--1-4'>
+        <div class='flex_col--1-4 without-padding'>
             <div class='reasons__block-first'>  
                 <a href="#">            
                     <img src="/../wp-content/themes/utg/images/Path_111.png">
@@ -747,7 +825,7 @@
                 </a>                 
             </div>
         </div>
-        <div class='flex_col--1-4'>
+        <div class='flex_col--1-4 without-padding'>
             <div class='reasons__block'>
                 <div class='reasons__block-img'>
                     <img src="/wp-content/themes/utg/images/Vehicle.png">
@@ -760,7 +838,7 @@
                 </div>
             </div>
         </div>
-        <div class='flex_col--1-4'>
+        <div class='flex_col--1-4 without-padding'>
             <div class='reasons__block'>
                 <div class='reasons__block-img'>
                     <img src="/wp-content/themes/utg/images/Vehicle.png">
@@ -773,7 +851,7 @@
                 </div>
             </div>
         </div>
-        <div class='flex_col--1-4'>
+        <div class='flex_col--1-4 without-padding'>
             <div class='reasons__block'>
                 <div class='reasons__block-img'>
                     <img src="/wp-content/themes/utg/images/Vehicle.png">
@@ -799,7 +877,7 @@
         </div>
     </div>
     <div class='news__block-main'>
-        <div class='flex_col--1-3'>
+        <div class='flex_col--1-3 without-padding'>
             <div class='news__first'>
                 <h3> Следите за нами в соц. сетях </h3>
                 <div class='news__links'>
@@ -807,36 +885,41 @@
                     <a href="#"> <span class="icon-instagram"></span> </a>
                     <a href="#"> <span class="icon-twitter"></span> </a>
                 </div>
-                <div class='news__img'>
-                    <img src="/wp-content/themes/utg/images/phone.png">
-                </div>
+                <img class='news__img' src="/wp-content/themes/utg/images/phone.png">               
             </div>
         </div>
-        <div class='flex_col--1-3'>           
-            <div class='news__second'>
-                <a href="#" class='news__second-blocks'>
-                    <img src="/wp-content/themes/utg/images/background__news.png" alt="">
-                    <span class='news-blue-link' href="#"> Статьи </span>
-                    <h4> Как правильно настроить оптический прицел? </h4>
-                    <span class='news-date'> 17.02.2019 </span>
-                </a>
-                <a href="#" class='news__second-blocks'>
-                    <span class='news-blue-link' href="#"> Статьи </span>
-                    <h4> Как правильно настроить оптический прицел? </h4>
-                    <span class='news-date'> 17.02.2019 </span>
-                </a>
-            </div>            
+        <div class='flex_col--1-3 without-padding'>   
+            <div class='news__second'>      
+                <a class='news__second-block' href="#">
+                    <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
+                    <div class='news__second-content'>
+                        <span>статьи</span>
+                        <b>Как правильно настроить оптический прицел?</b>
+                        <span>17.02.2019</span>
+                    </div>
+                </a> 
+                <a class='news__second-block' href="#">
+                    <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
+                    <div class='news__second-content'>
+                        <span>статьи</span>
+                        <b>Как правильно настроить оптический прицел?</b>
+                        <span class='icon-calendar'> 17.02.2019</span>                        
+                    </div>
+                </a>     
+            </div>         
         </div>
-        <div class='flex_col--1-3'>          
-            <a href="#" class='news__third'>
-                <span class='news-blue-link' href="#"> Статьи </span>
-                <h4> Как правильно настроить оптический прицел? </h4>
-                <span class='news__third-text-block'>
+       
+        <div class='flex_col--1-3 without-padding'>          
+            <a href="#" class='news__third'>  
+                <img class="news__third-block-img" src="/wp-content/themes/utg/images/News-img-last.png" alt="">
+                <div class='news__third-content'>
+                    <span>статьи</span>
+                    <b>Как правильно настроить оптический прицел?</b>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                </span>
-                <span class='news-date'> 17.02.2019 </span>
+                    <span class='icon-calendar'> 17.02.2019</span> 
+                </div>
             </a>          
-        </div>
+        </div> 
     </div>
 </div>
 
