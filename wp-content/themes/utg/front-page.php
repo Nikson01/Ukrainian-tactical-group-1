@@ -8,6 +8,45 @@
 
 <div class="flex_container">
 
+<div class='top__slider'>
+    <div class="flex_col--3-4">
+        <div class="flex_row without-margin top-slider-block">           
+            <div class="top__slider-main " >
+                <img src="/wp-content/themes/utg/images/Beretta.png" alt="">
+                <div class="top__slider-inside">
+                    <b>Новая коллекция оружия</b>
+                    <p>«Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.»</p>
+                    <a href="#">Подробнее</a>                    
+                </div>
+            </div>  
+            <div class="top__slider-main " >
+                <img src="/wp-content/themes/utg/images/Beretta.png" alt="">
+                <div class="top__slider-inside">
+                    <b>Новая коллекция оружия</b>
+                    <p>«Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.»</p>
+                    <a href="#">Подробнее</a>
+                </div>
+            </div>   
+            <div class="top__slider-main " >
+                <img src="/wp-content/themes/utg/images/Beretta.png" alt="">
+                <div class="top__slider-inside">
+                    <b>Новая коллекция оружия</b>
+                    <p>«Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.»</p>
+                    <a href="#">Подробнее</a>
+                </div>
+            </div>   
+            <div class="top__slider-main " >
+                <img src="/wp-content/themes/utg/images/Beretta.png" alt="">
+                <div class="top__slider-inside">
+                    <b>Новая коллекция оружия</b>
+                    <p>«Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.»</p>
+                    <a href="#">Подробнее</a>
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>
+
     <div class="actions">
             <div class="flex_row">
             
@@ -245,7 +284,7 @@
                     <a href="#">
                         <div class="discount-top">
                             <span>-20%</span>
-                            <span class='icon-favorites-star'></span>
+                            <span class='icon-favorites-star'></span>                            
                         </div>
                         <div class="discount-img">
                             <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
@@ -933,6 +972,75 @@
         </div>
     </div>
     <div class='reviews-block-main reviews-slick'>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class='flex_col--1-3'>
+            <div class='reviews-inside-block last-without-border'>
+                <div>
+                    <span> Игорь Корнелюк </span>
+                    <div>
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                    </div>
+                </div>
+                <div>
+                    <span> г. Киев </span>
+                    <span> 03.09.2019 </span>
+                </div>
+                <div>
+                    <span>
+                        <p> «Равным образом сложившаяся структура организации влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.» </p>
+                    </span>
+                </div>
+            </div>
+        </div>
         <div class='flex_col--1-3'>
             <div class='reviews-inside-block'>
                 <div>

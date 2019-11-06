@@ -31,13 +31,28 @@
 $('.discount-products-gallery').slick({
   infinite: true,
   slidesToShow: 4,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  prevArrow: '<button type="button"><span class="icon-arrow-prev"><</span></button>',
+  nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
 });
 $('.reviews-slick').slick({
   infinite: true,
   slidesToShow: 3,
+  speed: 1200,
   dots: true,
-  slidesToScroll: 3
+  slidesToScroll: 3,
+  prevArrow: '<button type="button"><span class="icon-arrow-prev"><</span></button>',
+  nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
+});
+
+$('.top-slider-block').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear', 
+  prevArrow: '<button type="button"><span class="icon-arrow-prev"><</span></button>',
+  nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
 });
 </script>
 </body>
