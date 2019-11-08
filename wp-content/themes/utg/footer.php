@@ -32,7 +32,7 @@ $('.discount-products-gallery').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  prevArrow: '<button type="button"><span class="icon-arrow-prev"><</span></button>',
+  prevArrow: '<button type="button"><span class="icon-arrow-prev"></span></button>',
   nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
 });
 $('.reviews-slick').slick({
@@ -41,7 +41,7 @@ $('.reviews-slick').slick({
   speed: 1200,
   dots: true,
   slidesToScroll: 3,
-  prevArrow: '<button type="button"><span class="icon-arrow-prev"><</span></button>',
+  prevArrow: '<button type="button"><span class="icon-arrow-prev"></span></button>',
   nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
 });
 
@@ -51,7 +51,7 @@ $('.top-slider-block').slick({
   speed: 500,
   fade: true,
   cssEase: 'linear', 
-  prevArrow: '<button type="button"><span class="icon-arrow-prev"><</span></button>',
+  prevArrow: '<button type="button"><span class="icon-arrow-prev"></span></button>',
   nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
 });
 </script>

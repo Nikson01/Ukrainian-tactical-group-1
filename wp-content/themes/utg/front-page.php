@@ -1138,11 +1138,11 @@
                 <div>
                     <span> Игорь Корнелюк </span>
                     <div>
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
                     </div>
                 </div>
                 <div>
@@ -1161,11 +1161,11 @@
                 <div>
                     <span> Игорь Корнелюк </span>
                     <div>
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
-                        <span> <img src="/wp-content/themes/utg/images/star.png" alt=""> </span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
+                        <span class='icon-star-product'></span> 
                     </div>
                 </div>
                 <div>
