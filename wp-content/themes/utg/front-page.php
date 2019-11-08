@@ -491,7 +491,7 @@
 <div class='discount-products'>  
     <div class="discount-products__title">
         <div>
-            <h2> Скидки и специальные предложения </h2>
+            <h2> Популярные товары </h2>
         </div>
         <div>
             <a href="#"> Смотреть все </a>
@@ -843,8 +843,8 @@
             </div>               
         </div>
     </div>
-    <div class='flex_row without-margin'>
-        <div class='flex_col--1-4 without-padding'>
+    <div class='flex_row reasons__blocks without-margin'>
+        <div class='flex_col-tab flex_col-desk--1-4  without-padding'>
             <div class='reasons__block-first'>  
                 <a href="#">            
                     <img src="/../wp-content/themes/utg/images/Path_111.png">
@@ -864,7 +864,7 @@
                 </a>                 
             </div>
         </div>
-        <div class='flex_col--1-4 without-padding'>
+        <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
             <div class='reasons__block'>
                 <div class='reasons__block-img'>
                     <img src="/wp-content/themes/utg/images/Vehicle.png">
@@ -877,7 +877,7 @@
                 </div>
             </div>
         </div>
-        <div class='flex_col--1-4 without-padding'>
+        <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
             <div class='reasons__block'>
                 <div class='reasons__block-img'>
                     <img src="/wp-content/themes/utg/images/Vehicle.png">
@@ -890,7 +890,7 @@
                 </div>
             </div>
         </div>
-        <div class='flex_col--1-4 without-padding'>
+        <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
             <div class='reasons__block'>
                 <div class='reasons__block-img'>
                     <img src="/wp-content/themes/utg/images/Vehicle.png">
@@ -916,7 +916,7 @@
         </div>
     </div>
     <div class='news__block-main'>
-        <div class='flex_col--1-3 without-padding'>
+        <div class='flex_col-tab flex_col-desk--1-3 without-padding'>
             <div class='news__first'>
                 <h3> Следите за нами в соц. сетях </h3>
                 <div class='news__links'>
@@ -927,7 +927,7 @@
                 <img class='news__img' src="/wp-content/themes/utg/images/phone.png">               
             </div>
         </div>
-        <div class='flex_col--1-3 without-padding'>   
+        <div class='flex_col-tab flex_col-desk--1-3 without-padding'>   
             <div class='news__second'>      
                 <a class='news__second-block' href="#">
                     <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
@@ -948,7 +948,7 @@
             </div>         
         </div>
        
-        <div class='flex_col--1-3 without-padding'>          
+        <div class='flex_col-tab flex_col-desk--1-3 without-padding'>          
             <a href="#" class='news__third'>  
                 <img class="news__third-block-img" src="/wp-content/themes/utg/images/News-img-last.png" alt="">
                 <div class='news__third-content'>

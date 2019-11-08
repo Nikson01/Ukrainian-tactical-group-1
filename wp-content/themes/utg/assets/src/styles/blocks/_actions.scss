@@ -112,6 +112,8 @@
       z-index: -1;
       border-radius: 6px;
       filter: brightness(50%);
+      height: 100%;
+      width: 100%;
     }
 
     .top__slider-inside {
@@ -500,105 +502,133 @@
     color: #374864;
     font-family: Montserrat;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 400px;
+
+    @media (min-width: $desktop) {
+      text-align: left;
+      max-width: 100%;
+    }
   }
 
-  .reasons__block-first {
-    position: relative;
-    background-image: linear-gradient(180deg, #3b4d6e 0%, #2e2d30 100%);
-    padding: 20px 0px 20px 25px;
-    max-height: 270px;
-    height: 270px;
-    transition: 0.5s ease;
+  .reasons__blocks {
+    display: flex;
+    flex-direction: column;
 
-    a {
-      img {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: block;
-        opacity: 0.2;
-      }
+    .reasons__block-first {
+      position: relative;
+      background-image: linear-gradient(180deg, #3b4d6e 0%, #2e2d30 100%);
+      padding: 20px 0px 20px 25px;
+      max-height: 270px;
+      height: 270px;
+      transition: 0.5s ease;
+      max-width: 400px;
+      margin: auto;
 
-      .reasons__inside-block {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 100%;
+      a {
+        img {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: block;
+          opacity: 0.2;
+        }
 
-        div {
-          &:first-child {
-            span {
-              color: $white;
+        .reasons__inside-block {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 100%;
 
-              &:first-child {
-                font-size: 90px;
+          div {
+            &:first-child {
+              span {
+                color: $white;
+
+                &:first-child {
+                  font-size: 90px;
+                }
+
+                &:last-child {
+                  font-family: Manrope;
+                  font-size: 16px;
+                  font-weight: 600;
+                }
               }
+            }
 
-              &:last-child {
+            &:nth-child(2) {
+              max-width: 80%;
+              span {
+                color: $white;
                 font-family: Manrope;
                 font-size: 16px;
-                font-weight: 600;
+                font-weight: 700;
+                letter-spacing: 0.4px;
               }
             }
-          }
 
-          &:nth-child(2) {
-            max-width: 80%;
-            span {
-              color: $white;
-              font-family: Manrope;
-              font-size: 16px;
-              font-weight: 700;
-              letter-spacing: 0.4px;
-            }
-          }
-
-          &:last-child {
-            span {
-              color: $white;
-              font-family: "Open Sans";
-              font-size: 14px;
-              font-weight: 600;
-            }
-            .icon-qrcode {
-              font-family: "icomoon";
-              &:before {
-                content: "\e938";
+            &:last-child {
+              span {
+                color: $white;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 600;
+              }
+              .icon-qrcode {
+                font-family: "icomoon";
+                &:before {
+                  content: "\e938";
+                }
               }
             }
           }
         }
       }
-    }
 
-    &:hover {
-      box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-      transition: 0.5s ease;
+      &:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+        transition: 0.5s ease;
+      }
+      @media (min-width: $desktop) {
+        max-width: initial;
+      }
     }
-  }
-  .reasons__block {
-    border: 1px solid #e8e8e8;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    div {
-      text-align: center;
+    .reasons__block {
+      border: 1px solid #e8e8e8;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-around;
+      max-height: 270px;
+      height: 270px;
+      max-width: 400px;
+      margin: auto;
 
-      &:nth-child(2) {
-        font-family: Manrope;
-        font-size: 32px;
-        font-weight: 700;
-      }
+      div {
+        text-align: center;
+        display: flex;
+        justify-content: center;
 
-      &:last-child {
-        font-family: Manrope;
-        font-size: 14px;
-        font-weight: 700;
+        &:nth-child(2) {
+          font-family: Manrope;
+          font-size: 32px;
+          font-weight: 700;
+        }
+
+        &:last-child {
+          font-family: Manrope;
+          font-size: 14px;
+          font-weight: 700;
+        }
       }
+      @media (min-width: $desktop) {
+        max-width: initial;
+      }
+    }
+
+    @media (min-width: $desktop) {
+      flex-direction: row;
     }
   }
 }
@@ -609,8 +639,11 @@
   .news__block-title {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     border: 1px solid #e8e8e8;
     padding: 0px 25px;
+    max-width: 400px;
+    margin: auto;
 
     div {
       &:first-child {
@@ -640,13 +673,22 @@
           border-radius: 6px;
           padding: 10px;
           transition: 0.3s ease;
+          max-width: 120px;
+          margin: 20px auto;
 
           &:hover {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             transition: 0.3s ease;
           }
+          @media (min-width: $desktop) {
+            max-width: initial;
+          }
         }
       }
+    }
+    @media (min-width: $desktop) {
+      flex-direction: row;
+      max-width: 100%;
     }
   }
 
@@ -655,13 +697,17 @@
   }
   .news__block-main {
     display: flex;
+    flex-direction: column;
 
     .news__first {
       background-image: linear-gradient(180deg, #3b4d6e 0%, #2e2d30 100%);
       position: relative;
       max-height: 600px;
-      height: 600px;
+      height: 490px;
       padding-top: 30px;
+      min-width: 310px;
+      max-width: 400px;
+      margin: 0 auto;
 
       h3 {
         font-size: 25px;
@@ -721,9 +767,21 @@
       .news__img {
         position: absolute;
         bottom: 0;
-        left: 3%;
-        opacity: 0.4;
+        left: 50%;
+        margin-left: -150px;
+        opacity: 1;
         transition: opacity 0.5s ease;
+        max-height: 320px;
+
+        @media (min-width: $desktop) {
+          left: 50%;
+          opacity: 0.4;
+          margin-left: -185px;
+          max-height: initial;
+          min-height: 400px;
+          max-width: 370px;
+          width: 370px;
+        }
       }
 
       &:hover {
@@ -732,8 +790,18 @@
           transition: opacity 0.5s ease;
         }
       }
+      @media (min-width: $desktop) {
+        height: 600px;
+        max-width: 100%;
+      }
     }
     .news__second {
+      height: 600px;
+      max-height: 600px;
+      min-width: 310px;
+      max-width: 400px;
+      margin: 0 auto;
+
       .news__second-block {
         display: flex;
         position: relative;
@@ -745,8 +813,12 @@
           height: 100%;
           width: 100%;
           z-index: -1;
-          opacity: 0.6;
+          opacity: 0.8;
           transition: opacity 0.5s ease;
+
+          @media (min-width: $desktop) {
+            opacity: 0.6;
+          }
         }
 
         .news__second-content {
@@ -798,18 +870,28 @@
           }
         }
       }
+      @media (min-width: $desktop) {
+        max-width: 100%;
+      }
     }
 
     .news__third {
       position: relative;
+      min-width: 310px;
+      max-width: 400px;
+      margin: 0 auto;
 
       .news__third-block-img {
         position: absolute;
         height: 100%;
         width: 100%;
         z-index: -1;
-        opacity: 0.4;
+        opacity: 0.7;
         transition: opacity 0.5s ease;
+
+        @media (min-width: $desktop) {
+          opacity: 0.4;
+        }
       }
 
       .news__third-content {
@@ -852,6 +934,11 @@
           letter-spacing: 0.63px;
           text-transform: uppercase;
           color: $white;
+          margin: 20px 0px;
+
+          @media (min-width: $desktop) {
+            margin: 0;
+          }
         }
 
         p {
@@ -868,6 +955,12 @@
           opacity: 1;
         }
       }
+      @media (min-width: $desktop) {
+        max-width: 100%;
+      }
+    }
+    @media (min-width: $desktop) {
+      flex-direction: row;
     }
   }
 }
