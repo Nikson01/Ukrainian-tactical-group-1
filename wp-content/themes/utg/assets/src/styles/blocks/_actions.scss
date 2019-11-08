@@ -1142,60 +1142,101 @@
 }
 
 .seo-text__block {
-  width: 70%;
+  max-width: 900px;
   margin: 80px auto 100px;
   border: 1px solid #e8e8e8;
   padding-top: 70px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 
-  .seo-text__left {
-    img {
-      margin-left: -80px;
-    }
+  .seo__blocks-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
 
-    div {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+    .seo-text__left {
+      img {
+        margin: auto;
 
-      a {
-        margin: 15px 0px 15px;
-
-        &:first-child {
-          margin-top: 40px;
+        @media (min-width: $desktop) {
+          margin-left: -80px;
         }
+      }
 
-        span {
-          color: #d6d8da;
-          transition: 0.5s ease;
-          font-size: 22px;
+      .seo-text__social {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 30px;
 
-          &:hover {
+        a {
+          margin: 15px 0px 15px;
+          font-size: 25px;
+
+          &:first-child {
+            margin-top: 15px;
+
+            @media (min-width: $desktop) {
+              margin-top: 40px;
+            }
+          }
+
+          span {
             color: $black;
             transition: 0.5s ease;
+            font-size: 29px;
+
+            &:hover {
+              color: $black;
+              transition: 0.5s ease;
+            }
+
+            @media (min-width: $desktop) {
+              font-size: 22px;
+              color: #d6d8da;
+            }
           }
+        }
+        @media (min-width: $desktop) {
+          flex-direction: column;
+          justify-content: initial;
+          margin-top: 0;
         }
       }
     }
-  }
 
-  .seo-text__right {
-    h3 {
-      font-family: Montserrat;
-      font-size: 30px;
-      color: #374864;
-      font-weight: 700;
-    }
+    .seo-text__right {
+      h3 {
+        font-family: Montserrat;
+        font-size: 30px;
+        color: #374864;
+        font-weight: 700;
+        text-align: center;
 
-    div {
-      padding-right: 70px;
-
-      p {
-        font-family: "Open Sans";
-        color: #343e48;
-        font-size: 14px;
-        font-weight: 400;
+        @media (min-width: $desktop) {
+          text-align: initial;
+        }
       }
+
+      div {
+        padding-right: 0px;
+
+        p {
+          font-family: "Open Sans";
+          color: #343e48;
+          font-size: 14px;
+          font-weight: 400;
+        }
+        @media (min-width: $desktop) {
+          padding-right: 70px;
+        }
+      }
+    }
+    @media (min-width: $desktop) {
+      flex-direction: row;
+      max-width: initial;
     }
   }
 }

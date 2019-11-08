@@ -279,7 +279,7 @@
     </div>
     <div class="discount-products_line">
         <div class="flex_row discount-products-gallery without-margin">            
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -320,7 +320,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -361,7 +361,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -402,7 +402,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -443,7 +443,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -1183,8 +1183,8 @@
 </div>
 
 <div class='seo-text__block'>
-    <div class="flex_row">
-        <div class='flex_col--1-3'>
+    <div class="seo__blocks-container flex_row">
+        <div class='flex_col-desk--1-3 flex_col-tab'>
             <div class="seo-text__left">
                 <img src="/wp-content/themes/utg/images/img-10.png" alt="">
                 <div class="seo-text__social">
@@ -1194,7 +1194,7 @@
                 </div>
             </div>
         </div>
-        <div class='flex_col--2-3'>
+        <div class='flex_col-desk--2-3 flex_col-tab'>
             <div class="seo-text__right">
                 <h3> Заголовок SЕО-текста </h3>
                 <div>
