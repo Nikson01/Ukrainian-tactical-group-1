@@ -1,6 +1,12 @@
 .top__slider {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+
+  .changed-width {
+    @media screen and (max-width: 1280px) and (min-width: 1024px) {
+      width: 69%;
+    }
+  }
 
   .without-margin {
     margin: 0;
@@ -10,7 +16,9 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 44%;
+    width: 0px;
+    left: 50%;
+    margin-left: -50px;
     top: 80%;
 
     margin: 0;
@@ -49,8 +57,8 @@
     .icon-arrow {
       position: absolute;
       right: 2%;
-      top: 5%;
-      height: 90%;
+      top: 78%;
+      height: 15%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -65,13 +73,18 @@
         transition: 0.3s ease;
         border-radius: 6px;
       }
+
+      @media (min-width: $desktop) {
+        top: 5%;
+        height: 90%;
+      }
     }
     .icon-arrow-prev {
       position: absolute;
       left: 2%;
-      top: 5%;
+      top: 78%;
       z-index: 1;
-      height: 90%;
+      height: 15%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -91,6 +104,11 @@
         border-radius: 6px;
         transition: 0.3s ease;
       }
+
+      @media (min-width: $desktop) {
+        top: 5%;
+        height: 90%;
+      }
     }
   }
 
@@ -101,6 +119,7 @@
     max-height: 415px;
     height: 415px;
     border-radius: 6px;
+    width: 100%;
     position: relative;
     overflow: hidden;
 
@@ -126,17 +145,27 @@
       b {
         font-family: Montserrat;
         color: $white;
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 700;
+
+        @media (min-width: $desktop) {
+          font-size: 32px;
+        }
       }
 
       p {
         font-family: "Open Sans";
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         color: $white;
-        max-width: 50%;
-        margin: 50px auto;
+        max-width: 80%;
+        margin: 5px auto;
+
+        @media (min-width: $desktop) {
+          font-size: 14px;
+          max-width: 50%;
+          margin: 50px auto;
+        }
       }
 
       a {
@@ -163,6 +192,10 @@
         }
       }
     }
+  }
+
+  @media (min-width: $desktop) {
+    justify-content: flex-end;
   }
 }
 
@@ -214,10 +247,9 @@
   .discount-products__title {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #e8e8e8;
-    border-right: 1px solid #e8e8e8;
-    border-left: 1px solid #e8e8e8;
-    padding: 0px 25px;
+    flex-direction: column;
+    border: 1px solid #e8e8e8;
+    padding: 0px 25px 20px;
 
     div {
       &:first-child {
@@ -226,9 +258,14 @@
           font-family: Montserrat;
           color: #374864;
           font-weight: 700;
+          text-align: center;
 
           &:hover {
             cursor: default;
+          }
+
+          @media screen and (min-width: 600px) {
+            text-align: inherit;
           }
         }
       }
@@ -247,16 +284,30 @@
           border-radius: 6px;
           padding: 10px;
           transition: 0.3s ease;
+          text-align: center;
 
           &:hover {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             transition: 0.3s ease;
           }
+
+          @media screen and (min-width: 600px) {
+            text-align: inherit;
+          }
         }
       }
     }
+
+    @media screen and (min-width: 600px) {
+      flex-direction: row;
+      padding-bottom: 0px;
+    }
   }
   .discount-products_line {
+    .line-of-products-mob {
+      flex-wrap: wrap;
+    }
+
     .slick-arrow {
       .icon-arrow {
         background-color: #3c6da6;
@@ -264,14 +315,22 @@
         padding: 15px;
         color: $white;
         position: absolute;
-        top: 45%;
-        right: -55px;
+        top: 34%;
+        right: -7px;
         transition: 0.3s ease;
+        // opacity: 0.5;
+        z-index: 3;
 
         &:hover {
           cursor: pointer;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
           transition: 0.3s ease;
+        }
+
+        @media screen and (min-width: 1280px) {
+          top: 45%;
+          right: -55px;
+          opacity: 1;
         }
       }
       .icon-arrow-prev {
@@ -280,10 +339,12 @@
         padding: 15px;
         color: $white;
         position: absolute;
-        top: 45%;
-        left: -55px;
+        top: 34%;
+        left: -7px;
         transition: 0.3s ease;
         transform: scaleX(-1);
+        // opacity: 0.5;
+        z-index: 3;
 
         &::before {
           content: "\e900";
@@ -293,6 +354,12 @@
           cursor: pointer;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
           transition: 0.3s ease;
+        }
+
+        @media screen and (min-width: 1280px) {
+          top: 45%;
+          left: -55px;
+          opacity: 1;
         }
       }
     }
@@ -306,6 +373,8 @@
     }
     .discount-products_block {
       border: 1px solid #e8e8e8;
+      width: 99%;
+      margin: auto;
 
       a {
         display: block;
@@ -396,7 +465,6 @@
             flex-direction: column;
             animation-duration: 0.3s;
             animation-name: slideout;
-            margin-left: 37%;
 
             @keyframes slideout {
               from {
@@ -429,12 +497,16 @@
                 }
               }
             }
+
+            @media (min-width: $desktop) {
+              margin-left: 37%;
+            }
           }
           .discount-price__second-block {
-            opacity: 0;
-            visibility: hidden;
+            opacity: 1;
+            visibility: inherit;
             transition: opacity 0.4s, visibility 0s linear 0.3s;
-            width: 0%;
+            width: 50%;
 
             button {
               font-family: Manrope;
@@ -452,28 +524,37 @@
                 cursor: pointer;
               }
             }
+
+            @media (min-width: $desktop) {
+              opacity: 0;
+              visibility: hidden;
+              transition: opacity 0.4s, visibility 0s linear 0.3s;
+              width: 0%;
+            }
           }
         }
-        &:hover {
-          .discount-price__second-block {
-            width: 60%;
-            opacity: 1;
-            visibility: visible;
-            transition-delay: 0s;
-          }
+        @media (min-width: $desktop) {
+          &:hover {
+            .discount-price__second-block {
+              width: 60%;
+              opacity: 1;
+              visibility: visible;
+              transition-delay: 0s;
+            }
 
-          .discount-price__first-block {
-            animation-duration: 0.3s;
-            animation-name: slidein;
-            margin-left: 0%;
+            .discount-price__first-block {
+              animation-duration: 0.3s;
+              animation-name: slidein;
+              margin-left: 0%;
 
-            @keyframes slidein {
-              from {
-                margin-left: 37%;
-              }
+              @keyframes slidein {
+                from {
+                  margin-left: 37%;
+                }
 
-              to {
-                margin-left: 0%;
+                to {
+                  margin-left: 0%;
+                }
               }
             }
           }
@@ -652,6 +733,7 @@
           font-family: Montserrat;
           color: #374864;
           font-weight: 700;
+          text-align: center;
 
           &:hover {
             cursor: default;
@@ -971,6 +1053,7 @@
   .reviews-block__title {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding: 0px 25px;
 
     div {
@@ -980,9 +1063,14 @@
           font-family: Montserrat;
           color: #374864;
           font-weight: 700;
+          text-align: center;
 
           &:hover {
             cursor: default;
+          }
+
+          @media screen and (min-width: 600px) {
+            text-align: inherit;
           }
         }
       }
@@ -1001,28 +1089,37 @@
           border-radius: 6px;
           padding: 10px;
           transition: 0.3s ease;
+          text-align: center;
 
           &:hover {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             transition: 0.3s ease;
           }
+
+          @media screen and (min-width: 600px) {
+            text-align: inherit;
+          }
         }
       }
+    }
+    @media screen and (min-width: 600px) {
+      flex-direction: row;
     }
   }
   .reviews-block-main {
     display: flex;
-    border: 1px solid #e8e8e8;
+    border: none;
     padding: 25px 15px;
 
     .slick-dots {
       display: flex;
       justify-content: center;
       position: absolute;
-      left: 47%;
+      width: 130px;
+      margin-left: -65px;
+      left: 50%;
       top: 100%;
 
-      margin: 0;
       padding: 1rem 0;
 
       list-style-type: none;
@@ -1061,14 +1158,21 @@
         padding: 15px;
         color: $white;
         position: absolute;
-        top: 45%;
-        right: -55px;
+        top: 39%;
+        right: -8px;
         transition: 0.3s ease;
+        opacity: 0.7;
 
         &:hover {
           cursor: pointer;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
           transition: 0.3s ease;
+        }
+
+        @media screen and (min-width: 1280px) {
+          top: 45%;
+          right: -55px;
+          opacity: 1;
         }
       }
       .icon-arrow-prev {
@@ -1077,10 +1181,11 @@
         padding: 15px;
         color: $white;
         position: absolute;
-        top: 45%;
-        left: -55px;
+        top: 39%;
+        left: -8px;
         transition: 0.3s ease;
         transform: scaleX(-1);
+        opacity: 0.7;
 
         &::before {
           content: "\e900";
@@ -1091,21 +1196,33 @@
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
           transition: 0.3s ease;
         }
+
+        @media screen and (min-width: 1280px) {
+          top: 45%;
+          left: -55px;
+          opacity: 1;
+        }
       }
     }
 
     div {
       &:last-child {
         .last-without-border {
-          border-right: none;
-          padding-right: 0px;
+          // border-right: none;
+          // padding-right: 0px;
+
+          @media (min-width: $desktop) {
+            border-right: none;
+            padding-right: 0px;
+          }
         }
       }
     }
 
     .reviews-inside-block {
-      border-right: 1px solid #e8e8e8;
-      padding-right: 30px;
+      border: 1px solid #e8e8e8;
+      padding: 15px;
+      max-height: 370px;
 
       div {
         &:first-child {
@@ -1137,6 +1254,13 @@
           }
         }
       }
+      @media (min-width: $desktop) {
+        border: none;
+        border-right: 1px solid #e8e8e8;
+      }
+    }
+    @media (min-width: $desktop) {
+      border: 1px solid #e8e8e8;
     }
   }
 }
@@ -1194,7 +1318,7 @@
             }
 
             @media (min-width: $desktop) {
-              font-size: 22px;
+              font-size: 25px;
               color: #d6d8da;
             }
           }

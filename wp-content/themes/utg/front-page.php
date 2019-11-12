@@ -9,7 +9,7 @@
 <div class="flex_container">
 
 <div class='top__slider'>
-    <div class="flex_col--3-4">
+    <div class="flex_col-desk--3-4 flex_col-tab changed-width">
         <div class="flex_row without-margin top-slider-block">           
             <div class="top__slider-main " >
                 <img src="/wp-content/themes/utg/images/Beretta.png" alt="">
@@ -498,8 +498,8 @@
         </div>
     </div>
     <div class="discount-products_line">
-        <div class="flex_row without-margin">                        
-            <div class="flex_col--1-4 without-padding">
+        <div class="flex_row without-margin line-of-products-mob">                        
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -540,7 +540,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -581,7 +581,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -622,7 +622,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -666,8 +666,8 @@
         </div>
     </div>
     <div class="discount-products_line">
-        <div class="flex_row without-margin">                        
-            <div class="flex_col--1-4 without-padding">
+        <div class="flex_row without-margin line-of-products-mob">                        
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -708,7 +708,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -749,7 +749,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -790,7 +790,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex_col--1-4 without-padding">
+            <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
