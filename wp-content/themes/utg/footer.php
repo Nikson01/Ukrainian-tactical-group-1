@@ -28,7 +28,22 @@
     })
 </script>
 <script>
- 
+
+    $(document).ready(function() {
+    $(".seo-text__right_btn-show").click(function() {
+        var $this = $(this);
+        $(".seo-text__right_hide-text").slideToggle(500);
+
+        $this.toggleClass("expanded");
+
+        if ($this.hasClass("expanded")) {
+            $this.html("Развернуть");
+        } else {
+            $this.html("Свернуть");
+        }
+    });
+});
+
 $('.discount-products-gallery').slick({
   infinite: true,
   slidesToShow: 4,

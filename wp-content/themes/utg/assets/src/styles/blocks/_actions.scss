@@ -1352,6 +1352,22 @@
           color: #343e48;
           font-size: 14px;
           font-weight: 400;
+
+          &:last-child {
+            display: none;
+          }
+        }
+
+        a {
+          font-family: "Open Sans";
+          font-size: 14px;
+          color: #0070bb;
+          font-weight: 400;
+          border-bottom: 1px #0070bb dotted;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
         @media (min-width: $desktop) {
           padding-right: 70px;
