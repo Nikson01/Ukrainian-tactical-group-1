@@ -87,117 +87,355 @@
                         Каталог товаров
                     </button>
                     <ul class="menu-general">
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Новинки</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Оружие</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Распродажа</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Верхняя одежда</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Куртки</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Брюки, комбинезоны</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Обувь</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Тактика</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Фонари</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Оптические прицелы</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-item__name" href="#">Рубашки</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </li>                    
-                        <a class="menu-general__btn" href="#"> Все категории товаров(23) </a>                    
+                        <div class="menu-general-cover">
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Новинки</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Огнестрельное оружие</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Травматическое оружие</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Пневматика</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Винтовки пневматические</a></li>
+                                            <li><a href="">Пистолеты пневматические</a></li>
+                                            <li><a href="">Револьверы пневматические</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Пневматика</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Винтовки пневматические</a></li>
+                                            <li><a href="">Пистолеты пневматические</a></li>
+                                            <li><a href="">Револьверы пневматические</a></li>
+                                        </ul>
+                                    </li>                                   
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Оружие</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Огнестрельное оружие</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Травматическое оружие</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Пневматика</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Винтовки пневматические</a></li>
+                                            <li><a href="">Пистолеты пневматические</a></li>
+                                            <li><a href="">Револьверы пневматические</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Пневматика</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Винтовки пневматические</a></li>
+                                            <li><a href="">Пистолеты пневматические</a></li>
+                                            <li><a href="">Револьверы пневматические</a></li>
+                                        </ul>
+                                    </li>                                   
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Распродажа</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Патроны</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Травматическое оружие</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Пневматика</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Винтовки пневматические</a></li>
+                                            <li><a href="">Пистолеты пневматические</a></li>
+                                            <li><a href="">Револьверы пневматические</a></li>
+                                        </ul>
+                                    </li>                                                                
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Верхняя одежда</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Куртки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Куртки</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Куртки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Плащи</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Брюки, комбинезоны</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Брюки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Комбинезоны</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Обувь</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Берцы</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Ботинки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Сапоги</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Тактика</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Куртки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Фонари</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Куртки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Оптические прицелы</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Куртки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__name" href="#">Рубашки</a>
+                                <span class='icon-arrow'></span>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Куртки</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Гладкоствольное оружие</a></li>
+                                            <li><a href="">Нарезное оружие</a></li>
+                                            <li><a href="">Запчасти</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Мос. халаты</a>
+                                        <ul class='under-sub-menu'>
+                                            <li><a href="">Травматические пистолеты</a></li>
+                                            <li><a href="">Травматические револьверы</a></li>
+                                            <li><a href="">Комплектующие</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>                    
+                            <a class="menu-general__btn" href="#"> Все категории товаров(23) </a> 
+                        </div>                   
                     </ul>
                 </div>
                 

@@ -1254,6 +1254,10 @@
           }
         }
       }
+
+      &:focus {
+        outline: none;
+      }
       @media (min-width: $desktop) {
         border: none;
         border-right: 1px solid #e8e8e8;
@@ -1346,6 +1350,10 @@
 
       div {
         padding-right: 0px;
+
+        .expanded {
+          display: none;
+        }
 
         p {
           font-family: "Open Sans";

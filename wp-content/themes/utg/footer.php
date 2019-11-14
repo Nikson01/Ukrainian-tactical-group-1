@@ -36,11 +36,11 @@
 
         $this.toggleClass("expanded");
 
-        if ($this.hasClass("expanded")) {
-            $this.html("Развернуть");
-        } else {
-            $this.html("Свернуть");
-        }
+        // if ($this.hasClass("expanded")) {
+        //     $this.html("Свернуть");
+        // } else {
+        //     $this.html("Развернуть");
+        // }
     });
 });
 

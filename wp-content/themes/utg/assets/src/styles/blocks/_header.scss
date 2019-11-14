@@ -258,7 +258,6 @@
       justify-content: space-between;
 
       .menu-general {
-        display: none;
         position: absolute;
         z-index: 3;
         top: 100%;
@@ -268,20 +267,16 @@
         border-radius: 0px 0px 15px 15px;
         padding-bottom: 10px;
         background-color: $white;
+        display: none;
 
-        .menu-item__news {
-          &:hover {
-            .sub-menu__news {
-              opacity: 1;
-              display: block;
-              position: absolute;
-            }
-          }
+        .menu-general-cover {
+          position: relative;
         }
 
         .menu-item {
           padding: 10px;
-          position: relative;
+          display: flex;
+          justify-content: space-between;
 
           &:first-child {
             .menu-item__name {
@@ -289,30 +284,21 @@
             }
           }
 
-          .menu-item__name {
-            &::after {
-              content: url(/wp-content/themes/utg/images/arrow-right.png);
-              position: absolute;
-              right: 8px;
-              top: 10px;
-            }
+          .icon-arrow {
+            color: #adb4c2;
           }
 
           .sub-menu {
             position: absolute;
             display: none;
-            opacity: 0;
-            transition: 0.3s linear;
-            transition-property: all;
-            opacity: 0;
             top: 0;
             left: 100%;
-            flex-direction: column;
+            background-color: $white;
 
             li {
               display: flex;
               flex-direction: column;
-              padding-left: 15px;
+              padding: 0px 15px;
               a {
                 border-bottom: 1px solid #e8e8e8;
                 display: block;
@@ -341,8 +327,21 @@
           }
 
           &:hover {
-            background-color: #e5eff9;
             cursor: pointer;
+            background-color: #f8f9fc;
+
+            .icon-arrow {
+              color: #3c6da6;
+            }
+
+            .sub-menu {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              max-width: 640px;
+              width: 640px;
+              border-radius: 0px 0px 15px 15px;
+            }
           }
         }
 
@@ -406,7 +405,7 @@
   }
 }
 
-.home .header .navigation-container {
+.home .header {
   display: block;
 }
 
