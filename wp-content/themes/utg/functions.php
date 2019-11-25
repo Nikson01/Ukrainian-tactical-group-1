@@ -456,3 +456,23 @@ function dimox_breadcrumbs() {
 
 
   pll_register_string('social1', 'social2');
+
+
+
+  function hide_all_wc_prices() {
+    return '';
+  }
+  add_filter( 'woocommerce_get_price_html', 'hide_all_wc_prices');
+  
+  
+  add_filter( 'woocommerce_get_price_html', 'custom_price_html', 100, 2 );
+  function custom_price_html( $price, $product ){
+
+    $price .= '<span class="discount-old_price"><strike>' . get_post_meta( get_the_ID(), '_sale_price', true). '</strike></span>';
+    $price .= '<span class="discount-new_price">' . get_post_meta( get_the_ID(), '_regular_price', true). ' ' . '<span>' . sprintf(get_woocommerce_currency_symbol() ) . '</span>' . '</span>';
+   
+      return apply_filters( 'woocommerce_get_price', $price );
+  }
+
+
+

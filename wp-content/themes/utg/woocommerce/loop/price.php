@@ -1,8 +1,8 @@
 <?php
 /**
- * Product loop sale flash
+ * Loop Price
  *
- * This template can be overridden by copying it to yourtheme/woocommerce/loop/sale-flash.php.
+ * This template can be overridden by copying it to yourtheme/woocommerce/loop/price.php.
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
@@ -19,13 +19,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-global $post, $product;
-
+global $product;
 ?>
-<?php if ( $product->is_on_sale() ) : ?>
 
-	<?php echo apply_filters( 'woocommerce_sale_flash', '<div class="discount-top"><span>' . esc_html__( 'Sale!', 'woocommerce' ) . '</span></div>', $post, $product ); ?>
+<?php if ( $price_html = $product->get_price_html() ) : ?>
+    <span class="sku"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?>  <?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span>
+</div>
+   
 
-<?php endif;
-
-/* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
+<div class="discount-price">
+    <div class="discount-price__first-block">
+        <?php echo $price_html; ?>
+    </div>
+</div>
+   
+	
+<?php endif; ?>

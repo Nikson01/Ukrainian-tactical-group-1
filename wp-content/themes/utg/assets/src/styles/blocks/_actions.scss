@@ -379,10 +379,12 @@
       a {
         display: block;
         padding: 25px 15px;
+        position: relative;
 
         .discount-top {
-          display: flex;
-          justify-content: space-between;
+          position: absolute;
+          top: 15px;
+          left: 15px;
 
           span {
             &:first-child {
@@ -395,11 +397,12 @@
         }
 
         .discount-img {
-          margin: 50px 0px;
-
-          img {
-            margin: auto;
-          }
+          margin: 20px 0px;
+          min-height: 200px;
+          max-height: 260px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .discount-category {
@@ -417,11 +420,14 @@
 
         .discount-name {
           margin: 15px 0px;
+          min-height: 30px;
+          
           span {
             font-family: "Open Sans";
             font-size: 16px;
             color: #2a2c31;
             font-weight: 600;
+            line-height: 23px;
           }
         }
 
@@ -440,6 +446,10 @@
             color: #afafaf;
             font-size: 14px;
             font-weight: 400;
+
+            &.sku{
+              font-size: 12px;
+            }
           }
         }
 
@@ -459,6 +469,7 @@
         .discount-price {
           display: flex;
           justify-content: space-between;
+          margin-top: 15px;
 
           .discount-price__first-block {
             display: flex;
@@ -489,7 +500,7 @@
                 font-size: 24px;
                 color: #2a2c31;
                 font-weight: 700;
-                width: 75px;
+                min-width: 105px;
 
                 span {
                   font-family: "Segoe UI";
@@ -824,13 +835,6 @@
               transition: 0.5s ease;
               color: #0070bb;
               opacity: 1;
-            }
-          }
-
-          &:first-child {
-            span {
-              &:hover {
-              }
             }
           }
 
