@@ -307,17 +307,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
+                        </div>                       
+                    </a>  
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
                         </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
                         </div>
-                    </a>
+                    </div>                  
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab without-padding">
@@ -348,17 +348,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab without-padding">
@@ -389,17 +389,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab without-padding">
@@ -430,17 +430,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab without-padding">
@@ -471,17 +471,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
         </div>
@@ -527,17 +527,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
@@ -568,17 +568,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
@@ -609,17 +609,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
@@ -650,17 +650,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
         </div>
@@ -695,17 +695,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
@@ -736,17 +736,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
@@ -777,17 +777,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
             <div class="flex_col-desk--1-4 flex_col-tab--1-2 without-padding">
@@ -818,17 +818,17 @@
                         </div>
                         <div class="discount-code">
                             <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
+                        </div>                        
                     </a>
+                    <div class="discount-price">
+                        <div class="discount-price__first-block">
+                            <span class='discount-old_price'><strike>1400</strike></span>
+                            <span class='discount-new_price'>1032 <span>₴</span> </span>
+                        </div>
+                        <div class="discount-price__second-block">
+                            <button> Купить</button>
+                        </div>
+                    </div>       
                 </div>
             </div>
         </div>
