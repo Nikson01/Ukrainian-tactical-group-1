@@ -48,33 +48,27 @@
 </div>
 
     <div class="actions">
-            <div class="flex_row">
-            
-        
+        <div class="flex_row">
             <?php
-                $params = array(
-                    'post_type' => 'actions',
-                    'posts_per_page' => 3,
-                );
-                $query = new WP_Query( $params );
+            $params = array(
+                'post_type' => 'actions',
+                'posts_per_page' => 3,
+            );
+            $query = new WP_Query( $params );
+            ?>
+            <?php if($query->have_posts()): ?>
+                <?php while ($query->have_posts()): $query->the_post() ?>
+                <?php $image_action = get_field('image_action');
+                    $desc_action = get_field('desc_action ');
+                                                
                 ?>
-                <?php if($query->have_posts()): ?>
-                        <?php while ($query->have_posts()): $query->the_post() ?>
-                        <?php $image_action = get_field('image_action');
-                            $desc_action = get_field('desc_action ');
-                                                        
-                        ?>
-                        <div class="flex_col--1-3">
-                            <a class="actions_link" href="<?=the_permalink( $post->ID )?>">
-                                <img src="<?php echo $image_action['url'];?>" alt="">
-                            </a>
-
-                        
-
-
-                        </div>
-                        <?php endwhile; ?>
-                <?php endif; ?>
+                <div class="flex_col--1-3">
+                    <a class="actions_link" href="<?=the_permalink( $post->ID )?>">
+                        <img src="<?php echo $image_action['url'];?>" alt="">
+                    </a>
+                </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
         </div>
     </div>
 
@@ -93,129 +87,6 @@
 
 
             <!-- <div class="flex_col-desk--1-4 flex_col-tab without-padding">
-                <div class="discount-products_block">
-                    <a href="#">
-                        <div class="discount-top">
-                            <span>-20%</span>
-                            <span class='icon-favorites-star'></span>                            
-                        </div>
-                        <div class="discount-img">
-                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
-                        </div>
-                        <div class="discount-category">
-                            <span>Гладкоствольное оружие</span>
-                        </div>
-                        <div class="discount-name">
-                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
-                        </div>
-                        <div class="discount-rate">
-                            <div>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                            </div>
-                            <span>10 отзывов</span>
-                        </div>
-                        <div class="discount-code">
-                            <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
-                <div class="discount-products_block">
-                    <a href="#">
-                        <div class="discount-top">
-                            <span>-20%</span>
-                            <span class='icon-favorites-star'></span>
-                        </div>
-                        <div class="discount-img">
-                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
-                        </div>
-                        <div class="discount-category">
-                            <span>Гладкоствольное оружие</span>
-                        </div>
-                        <div class="discount-name">
-                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
-                        </div>
-                        <div class="discount-rate">
-                            <div>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                            </div>
-                            <span>10 отзывов</span>
-                        </div>
-                        <div class="discount-code">
-                            <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
-                <div class="discount-products_block">
-                    <a href="#">
-                        <div class="discount-top">
-                            <span>-20%</span>
-                            <span class='icon-favorites-star'></span>
-                        </div>
-                        <div class="discount-img">
-                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
-                        </div>
-                        <div class="discount-category">
-                            <span>Гладкоствольное оружие</span>
-                        </div>
-                        <div class="discount-name">
-                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
-                        </div>
-                        <div class="discount-rate">
-                            <div>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                            </div>
-                            <span>10 отзывов</span>
-                        </div>
-                        <div class="discount-code">
-                            <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
                 <div class="discount-products_block">
                     <a href="#">
                         <div class="discount-top">
@@ -665,65 +536,112 @@
         </div>
     </div>
     <div class='flex_row reasons__blocks without-margin'>
-        <div class='flex_col-tab flex_col-desk--1-4  without-padding'>
-            <div class='reasons__block-first'>  
-                <a href="#">            
-                    <img src="/../wp-content/themes/utg/images/Path_111.png">
-                    <div class="reasons__inside-block">                  
-                        <div> 
-                            <span> 5 </span>   
-                            <span> Лет </span>             
-                        </div>
-                        <div> 
-                            <span> Занимаемся продажей оружия </span>
-                        </div>
-                        <div> 
-                        <span>Подробнее о компании</span>  
-                        <span class="icon-calendar"></span>
-                        </div>
+
+       
+
+
+       
+        
+
+        <?php
+        $params = array(
+            'post_type' => 'utp',
+            'posts_per_page' => 1,
+        );
+        $query = new WP_Query( $params );
+        ?>
+        <?php
+            while ($query->have_posts()): $query->the_post() ?>
+
+
+                    <?php 
+                        $period_utp = get_field('period_utp');
+                        $image_utp = get_field('image_utp');
+                        $title_utp = get_field('title_utp');  
+                        $link_utp = get_field('link_utp');  
+                        $button_utp = get_field('button_utp');  
+                    ?>
+
+
+                <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
+                    <div class='reasons__block-first'>
+                        <a href="<?php echo $link_utp;?>">            
+                            <img src="<?php echo $image_utp['url'];?>">
+                            <div class="reasons__inside-block">                  
+                                <div> 
+                                    <span><?php echo $period_utp;?></span>
+                                </div>
+                                <div> 
+                                    <span><?php echo $title_utp;?></span>
+                                </div>
+                                <div> 
+                                    <span><?php echo $button_utp;?></span>  
+                                    <span class="icon-calendar"></span>
+                                </div>
+                            </div>
+                        </a>                 
                     </div>
-                </a>                 
-            </div>
-        </div>
-        <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
-            <div class='reasons__block'>
-                <div class='reasons__block-img'>
-                    <img src="/wp-content/themes/utg/images/Vehicle.png">
                 </div>
-                <div>
-                    <span> 5 лет </span>
-                </div>
-                <div>
-                    <span> Занимаемся продажей оружия </span>
-                </div>
-            </div>
-        </div>
-        <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
-            <div class='reasons__block'>
-                <div class='reasons__block-img'>
-                    <img src="/wp-content/themes/utg/images/Vehicle.png">
-                </div>
-                <div>
-                    <span> 5 лет </span>
-                </div>
-                <div>
-                    <span> Занимаемся продажей оружия </span>
-                </div>
-            </div>
-        </div>
-        <div class='flex_col-tab flex_col-desk--1-4 without-padding'>
-            <div class='reasons__block'>
-                <div class='reasons__block-img'>
-                    <img src="/wp-content/themes/utg/images/Vehicle.png">
-                </div>
-                <div>
-                    <span> 5 лет </span>
-                </div>
-                <div>
-                    <span> Занимаемся продажей оружия </span>
-                </div>
-            </div>
-        </div>
+
+
+                    <?php while ( have_rows('utp_links') ) : the_row(); ?>
+                        <?php 
+                            $sub_period_utp = get_sub_field('sub_period_utp');
+                            $sub_image_utp = get_sub_field('sub_image_utp');
+                            $sub_title_utp = get_sub_field('sub_title_utp');   
+                        ?>
+                        <div class="flex_col-tab flex_col-desk--1-4 without-padding">
+                            <div class="reasons__block">
+                                <div class='reasons__block-img'>
+                                    <img src="<?php echo $sub_image_utp['url']?>">
+                                </div>
+                                <div>
+                                    <span><?php echo $sub_period_utp;?></span>
+                                </div>
+                                <div>
+                                    <span><?php echo $sub_title_utp;?></span>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+               
+            <?php endwhile; ?>
+       
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+        
+        
     </div>
 </div>
 
