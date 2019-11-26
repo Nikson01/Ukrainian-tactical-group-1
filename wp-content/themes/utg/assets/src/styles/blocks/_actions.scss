@@ -378,12 +378,14 @@
 
       a {
         display: block;
-        padding: 25px 15px;
+        padding: 25px 15px 0px;
         position: relative;
 
         .discount-top {
+          display: flex;
+          justify-content: space-between;
           position: absolute;
-          top: 15px;
+          top: 13px;
           left: 15px;
 
           span {
@@ -397,12 +399,11 @@
         }
 
         .discount-img {
-          margin: 20px 0px;
-          min-height: 200px;
-          max-height: 260px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          margin: 15px 0px;
+
+          img {
+            margin: auto;
+          }
         }
 
         .discount-category {
@@ -420,14 +421,13 @@
 
         .discount-name {
           margin: 15px 0px;
-          min-height: 30px;
-          
+          min-height: 35px;
+
           span {
             font-family: "Open Sans";
             font-size: 16px;
             color: #2a2c31;
             font-weight: 600;
-            line-height: 23px;
           }
         }
 
@@ -446,10 +446,6 @@
             color: #afafaf;
             font-size: 14px;
             font-weight: 400;
-
-            &.sku{
-              font-size: 12px;
-            }
           }
         }
 
@@ -465,115 +461,118 @@
             font-size: 12px;
           }
         }
+      }
 
-        .discount-price {
+      .discount-price {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px 25px;
+
+        .discount-price__first-block {
           display: flex;
-          justify-content: space-between;
-          margin-top: 15px;
+          flex-direction: column;
+          animation-duration: 0.3s;
+          animation-name: slideout;
 
-          .discount-price__first-block {
-            display: flex;
-            flex-direction: column;
-            animation-duration: 0.3s;
-            animation-name: slideout;
-
-            @keyframes slideout {
-              from {
-                margin-left: 0%;
-              }
-
-              to {
-                margin-left: 37%;
-              }
+          @keyframes slideout {
+            from {
+              margin-left: 0%;
             }
 
-            span {
-              &:first-child {
-                font-family: "Open Sans";
-                font-size: 16px;
-                font-weight: 400;
-                color: #bebebe;
-              }
-
-              &:last-child {
-                font-family: "Open Sans";
-                font-size: 24px;
-                color: #2a2c31;
-                font-weight: 700;
-                min-width: 105px;
-
-                span {
-                  font-family: "Segoe UI";
-                  font-weight: 700;
-                }
-              }
-            }
-
-            @media (min-width: $desktop) {
+            to {
               margin-left: 37%;
             }
           }
-          .discount-price__second-block {
-            opacity: 1;
-            visibility: inherit;
-            transition: opacity 0.4s, visibility 0s linear 0.3s;
-            width: 50%;
 
-            button {
-              font-family: Manrope;
-              font-size: 13px;
-              font-weight: 700;
-              color: $white;
-              letter-spacing: 0.97px;
-              box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
-              border-radius: 6px;
-              background-color: #3c6da6;
-              padding: 15px 0px;
-              width: 100%;
-
-              &:hover {
-                cursor: pointer;
-              }
+          span {
+            &:first-child {
+              font-family: "Open Sans";
+              font-size: 16px;
+              font-weight: 400;
+              color: #bebebe;
             }
 
-            @media (min-width: $desktop) {
-              opacity: 0;
-              visibility: hidden;
-              transition: opacity 0.4s, visibility 0s linear 0.3s;
-              width: 0%;
+            &:last-child {
+              font-family: "Open Sans";
+              font-size: 24px;
+              color: #2a2c31;
+              font-weight: 700;
+              min-width: 120px;
+
+              span {
+                font-family: "Segoe UI";
+                font-weight: 700;
+              }
             }
           }
+
+          @media (min-width: $desktop) {
+            margin-left: 37%;
+          }
         }
-        @media (min-width: $desktop) {
-          &:hover {
-            .discount-price__second-block {
-              width: 60%;
-              opacity: 1;
-              visibility: visible;
-              transition-delay: 0s;
+        .discount-price__second-block {
+          opacity: 1;
+          visibility: inherit;
+          transition: opacity 0.4s, visibility 0s linear 0.3s;
+          width: 50%;
+
+          button {
+            font-family: Manrope;
+            font-size: 13px;
+            font-weight: 700;
+            color: $white;
+            letter-spacing: 0.97px;
+            box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
+            border-radius: 6px;
+            background-color: #3c6da6;
+            padding: 15px 0px;
+            width: 100%;
+
+            &:hover {
+              cursor: pointer;
             }
+          }
 
-            .discount-price__first-block {
-              animation-duration: 0.3s;
-              animation-name: slidein;
-              margin-left: 0%;
-
-              @keyframes slidein {
-                from {
-                  margin-left: 37%;
-                }
-
-                to {
-                  margin-left: 0%;
-                }
-              }
-            }
+          @media (min-width: $desktop) {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s, visibility 0s linear 0.3s;
+            width: 0%;
           }
         }
       }
+
       &:hover {
         box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
         border: 1px solid $white;
+
+        .discount-price__second-block {
+          @media (min-width: $desktop) {
+            width: 60%;
+            opacity: 1;
+            visibility: visible;
+            transition-delay: 0s;
+          }
+        }
+
+        .discount-price__first-block {
+          animation-duration: 0.3s;
+          animation-name: slidein;
+          margin-left: 0%;
+
+          @keyframes slidein {
+            from {
+              margin-left: 37%;
+            }
+
+            to {
+              margin-left: 0%;
+            }
+          }
+          @media (min-width: $desktop) {
+            margin-left: 0%;
+          }
+        }
       }
     }
   }
@@ -611,9 +610,9 @@
     .reasons__block-first {
       position: relative;
       background-image: linear-gradient(180deg, #3b4d6e 0%, #2e2d30 100%);
-      padding: 20px 0px 20px 25px;
-      max-height: 270px;
-      height: 270px;
+      padding: 40px 0px 30px 25px;
+      max-height: 320px;
+      height: 320px;
       transition: 0.5s ease;
       max-width: 400px;
       margin: auto;
@@ -643,7 +642,7 @@
                 }
 
                 &:last-child {
-                  font-family: 'Manrope';
+                  font-family: Manrope;
                   font-size: 16px;
                   font-weight: 600;
                 }
@@ -692,10 +691,22 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      max-height: 270px;
-      height: 270px;
+      max-height: 320px;
+      height: 320px;
       max-width: 400px;
       margin: auto;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      background-color: $white;
+
+      .reasons__block-img {
+        background-color: #f8f9fc;
+        border-radius: 50%;
+        padding: 30px;
+        height: 125px;
+        width: 150px;
+        margin: 0 auto;
+      }
 
       div {
         text-align: center;
@@ -835,6 +846,13 @@
               transition: 0.5s ease;
               color: #0070bb;
               opacity: 1;
+            }
+          }
+
+          &:first-child {
+            span {
+              &:hover {
+              }
             }
           }
 

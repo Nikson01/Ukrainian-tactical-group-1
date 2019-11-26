@@ -946,11 +946,15 @@ textarea {
     margin: auto; }
     .discount-products .discount-products_line .discount-products_block a {
       display: block;
-      padding: 25px 15px;
+      padding: 25px 15px 0px;
       position: relative; }
       .discount-products .discount-products_line .discount-products_block a .discount-top {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+                justify-content: space-between;
         position: absolute;
-        top: 15px;
+        top: 13px;
         left: 15px; }
         .discount-products .discount-products_line .discount-products_block a .discount-top span:first-child {
           font-family: "Open Sans";
@@ -958,15 +962,9 @@ textarea {
           font-weight: 700;
           color: #2a3143; }
       .discount-products .discount-products_line .discount-products_block a .discount-img {
-        margin: 20px 0px;
-        min-height: 200px;
-        max-height: 260px;
-        display: -webkit-box;
-        display: flex;
-        -webkit-box-align: center;
-                align-items: center;
-        -webkit-box-pack: center;
-                justify-content: center; }
+        margin: 15px 0px; }
+        .discount-products .discount-products_line .discount-products_block a .discount-img img {
+          margin: auto; }
       .discount-products .discount-products_line .discount-products_block a .discount-category {
         display: -webkit-box;
         display: flex;
@@ -980,13 +978,12 @@ textarea {
           opacity: 0.5; }
       .discount-products .discount-products_line .discount-products_block a .discount-name {
         margin: 15px 0px;
-        min-height: 30px; }
+        min-height: 35px; }
         .discount-products .discount-products_line .discount-products_block a .discount-name span {
           font-family: "Open Sans";
           font-size: 16px;
           color: #2a2c31;
-          font-weight: 600;
-          line-height: 23px; }
+          font-weight: 600; }
       .discount-products .discount-products_line .discount-products_block a .discount-rate {
         display: -webkit-box;
         display: flex;
@@ -999,8 +996,6 @@ textarea {
           color: #afafaf;
           font-size: 14px;
           font-weight: 400; }
-          .discount-products .discount-products_line .discount-products_block a .discount-rate span.sku {
-            font-size: 12px; }
       .discount-products .discount-products_line .discount-products_block a .discount-code {
         display: -webkit-box;
         display: flex;
@@ -1012,22 +1007,22 @@ textarea {
           color: #afafaf;
           font-weight: 400;
           font-size: 12px; }
-      .discount-products .discount-products_line .discount-products_block a .discount-price {
+    .discount-products .discount-products_line .discount-products_block .discount-price {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: justify;
+              justify-content: space-between;
+      padding: 15px 15px 25px; }
+      .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__first-block {
         display: -webkit-box;
         display: flex;
-        -webkit-box-pack: justify;
-                justify-content: space-between;
-        margin-top: 15px; }
-        .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__first-block {
-          display: -webkit-box;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-                  flex-direction: column;
-          -webkit-animation-duration: 0.3s;
-                  animation-duration: 0.3s;
-          -webkit-animation-name: slideout;
-                  animation-name: slideout; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-animation-duration: 0.3s;
+                animation-duration: 0.3s;
+        -webkit-animation-name: slideout;
+                animation-name: slideout; }
 
 @-webkit-keyframes slideout {
   from {
@@ -1040,42 +1035,60 @@ textarea {
     margin-left: 0%; }
   to {
     margin-left: 37%; } }
-          .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__first-block span:first-child {
-            font-family: "Open Sans";
-            font-size: 16px;
-            font-weight: 400;
-            color: #bebebe; }
-          .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__first-block span:last-child {
-            font-family: "Open Sans";
-            font-size: 24px;
-            color: #2a2c31;
-            font-weight: 700;
-            min-width: 105px; }
-            .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__first-block span:last-child span {
-              font-family: "Segoe UI";
-              font-weight: 700; }
-        .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__second-block {
-          opacity: 1;
-          visibility: inherit;
-          -webkit-transition: opacity 0.4s, visibility 0s linear 0.3s;
-          transition: opacity 0.4s, visibility 0s linear 0.3s;
-          width: 50%; }
-          .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__second-block button {
-            font-family: Manrope;
-            font-size: 13px;
-            font-weight: 700;
-            color: #fff;
-            letter-spacing: 0.97px;
-            box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
-            border-radius: 6px;
-            background-color: #3c6da6;
-            padding: 15px 0px;
-            width: 100%; }
-            .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__second-block button:hover {
-              cursor: pointer; }
+        .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__first-block span:first-child {
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-weight: 400;
+          color: #bebebe; }
+        .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__first-block span:last-child {
+          font-family: "Open Sans";
+          font-size: 24px;
+          color: #2a2c31;
+          font-weight: 700;
+          min-width: 120px; }
+          .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__first-block span:last-child span {
+            font-family: "Segoe UI";
+            font-weight: 700; }
+      .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__second-block {
+        opacity: 1;
+        visibility: inherit;
+        -webkit-transition: opacity 0.4s, visibility 0s linear 0.3s;
+        transition: opacity 0.4s, visibility 0s linear 0.3s;
+        width: 50%; }
+        .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__second-block button {
+          font-family: Manrope;
+          font-size: 13px;
+          font-weight: 700;
+          color: #fff;
+          letter-spacing: 0.97px;
+          box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
+          border-radius: 6px;
+          background-color: #3c6da6;
+          padding: 15px 0px;
+          width: 100%; }
+          .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__second-block button:hover {
+            cursor: pointer; }
     .discount-products .discount-products_line .discount-products_block:hover {
       box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
       border: 1px solid #fff; }
+      .discount-products .discount-products_line .discount-products_block:hover .discount-price__first-block {
+        -webkit-animation-duration: 0.3s;
+                animation-duration: 0.3s;
+        -webkit-animation-name: slidein;
+                animation-name: slidein;
+        margin-left: 0%; }
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 37%; }
+  to {
+    margin-left: 0%; } }
+
+@keyframes slidein {
+  from {
+    margin-left: 37%; }
+  to {
+    margin-left: 0%; } }
 
 .reasons {
   margin-top: 80px; }
@@ -1100,9 +1113,9 @@ textarea {
       position: relative;
       background-image: -webkit-gradient(linear, left top, left bottom, from(#3b4d6e), to(#2e2d30));
       background-image: linear-gradient(180deg, #3b4d6e 0%, #2e2d30 100%);
-      padding: 20px 0px 20px 25px;
-      max-height: 270px;
-      height: 270px;
+      padding: 40px 0px 30px 25px;
+      max-height: 320px;
+      height: 320px;
       -webkit-transition: 0.5s ease;
       transition: 0.5s ease;
       max-width: 400px;
@@ -1126,7 +1139,7 @@ textarea {
           .reasons .reasons__blocks .reasons__block-first a .reasons__inside-block div:first-child span:first-child {
             font-size: 90px; }
           .reasons .reasons__blocks .reasons__block-first a .reasons__inside-block div:first-child span:last-child {
-            font-family: 'Manrope';
+            font-family: Manrope;
             font-size: 16px;
             font-weight: 600; }
         .reasons .reasons__blocks .reasons__block-first a .reasons__inside-block div:nth-child(2) {
@@ -1158,10 +1171,20 @@ textarea {
       -webkit-box-direction: normal;
               flex-direction: column;
       justify-content: space-around;
-      max-height: 270px;
-      height: 270px;
+      max-height: 320px;
+      height: 320px;
       max-width: 400px;
-      margin: auto; }
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      background-color: #fff; }
+      .reasons .reasons__blocks .reasons__block .reasons__block-img {
+        background-color: #f8f9fc;
+        border-radius: 50%;
+        padding: 30px;
+        height: 125px;
+        width: 150px;
+        margin: 0 auto; }
       .reasons .reasons__blocks .reasons__block div {
         text-align: center;
         display: -webkit-box;
@@ -2101,36 +2124,22 @@ fieldset#wpmtst_starreting {
     .top__slider {
       -webkit-box-pack: end;
               justify-content: flex-end; }
-            .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__first-block {
-              margin-left: 37%; }
-            .discount-products .discount-products_line .discount-products_block a .discount-price .discount-price__second-block {
-              opacity: 0;
-              visibility: hidden;
-              -webkit-transition: opacity 0.4s, visibility 0s linear 0.3s;
-              transition: opacity 0.4s, visibility 0s linear 0.3s;
-              width: 0%; }
-        .discount-products .discount-products_line .discount-products_block a:hover .discount-price__second-block {
+          .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__first-block {
+            margin-left: 37%; }
+          .discount-products .discount-products_line .discount-products_block .discount-price .discount-price__second-block {
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: opacity 0.4s, visibility 0s linear 0.3s;
+            transition: opacity 0.4s, visibility 0s linear 0.3s;
+            width: 0%; }
+        .discount-products .discount-products_line .discount-products_block:hover .discount-price__second-block {
           width: 60%;
           opacity: 1;
           visibility: visible;
           -webkit-transition-delay: 0s;
                   transition-delay: 0s; }
-        .discount-products .discount-products_line .discount-products_block a:hover .discount-price__first-block {
-          -webkit-animation-duration: 0.3s;
-                  animation-duration: 0.3s;
-          -webkit-animation-name: slidein;
-                  animation-name: slidein;
-          margin-left: 0%; }
-        @-webkit-keyframes slidein {
-          from {
-            margin-left: 37%; }
-          to {
-            margin-left: 0%; } }
-        @keyframes slidein {
-          from {
-            margin-left: 37%; }
-          to {
-            margin-left: 0%; } }
+          .discount-products .discount-products_line .discount-products_block:hover .discount-price__first-block {
+            margin-left: 0%; }
       .reasons .reasons__article {
         text-align: left;
         max-width: 100%; }

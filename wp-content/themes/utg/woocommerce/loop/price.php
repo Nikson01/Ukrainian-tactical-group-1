@@ -24,14 +24,6 @@ global $product;
 
 <?php if ( $price_html = $product->get_price_html() ) : ?>
     <span class="sku"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?>  <?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span>
-</div>
-   
-
-<div class="discount-price">
-    <div class="discount-price__first-block">
-        <?php echo $price_html; ?>
-    </div>
-</div>
-   
+</div>   
 	
 <?php endif; ?>

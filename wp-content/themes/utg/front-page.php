@@ -84,98 +84,9 @@
     </div>
     <div class="discount-products_line">
         <div class="flex_row discount-products-gallery without-margin">    
-
-
-            <!-- <div class="flex_col-desk--1-4 flex_col-tab without-padding">
-                <div class="discount-products_block">
-                    <a href="#">
-                        <div class="discount-top">
-                            <span>-20%</span>
-                            <span class='icon-favorites-star'></span>
-                        </div>
-                        <div class="discount-img">
-                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
-                        </div>
-                        <div class="discount-category">
-                            <span>Гладкоствольное оружие</span>
-                        </div>
-                        <div class="discount-name">
-                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
-                        </div>
-                        <div class="discount-rate">
-                            <div>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                            </div>
-                            <span>10 отзывов</span>
-                        </div>
-                        <div class="discount-code">
-                            <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>-->
-            <div class="flex_col-desk--1-4 flex_col-tab without-padding">
-                <div class="discount-products_block">
-                    <a href="#">
-                        <div class="discount-top">
-                            <span>-20%</span>
-                            <span class='icon-favorites-star'></span>
-                        </div>
-                        <div class="discount-img">
-                            <img src="/wp-content/themes/utg/images/shotgun_png14.png" alt="">
-                        </div>
-                        <div class="discount-category">
-                            <span>Гладкоствольное оружие</span>
-                        </div>
-                        <div class="discount-name">
-                            <span>Ружье Hatsan Escort Xtreme Dark Grey SVP кал. 12/76. Ствол - 76 см</span>
-                        </div>
-                        <div class="discount-rate">
-                            <div>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                                <span class='icon-star-product'></span>
-                            </div>
-                            <span>10 отзывов</span>
-                        </div>
-                        <div class="discount-code">
-                            <span>Код: 144800375412</span>
-                        </div>
-                        <div class="discount-price">
-                            <div class="discount-price__first-block">
-                                <span class='discount-old_price'><strike>1400</strike></span>
-                                <span class='discount-new_price'>1032 <span>₴</span> </span>
-                            </div>
-                            <div class="discount-price__second-block">
-                                <button> Купить</button>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div> 
-
-
-
             <?php 
                 echo do_shortcode('[product_category orderby="date" order="desc" category="oruzhie"]');
             ?>
-
-
         </div>
     </div>
 </div>

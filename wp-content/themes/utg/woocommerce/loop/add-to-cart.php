@@ -21,8 +21,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product;
 
+$price_html = $product->get_price_html();
+
 echo apply_filters( 'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
-	sprintf( '<div class="discount-price__second-block"><button href="%s" data-quantity="%s" class="%s" %s>%s</button></div>',
+    sprintf( '<div class="discount-price"><div class="discount-price__first-block">' . $price_html . '</div><div class="discount-price__second-block"><button href="%s" data-quantity="%s" class="%s" %s>%s</button></div></div>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
