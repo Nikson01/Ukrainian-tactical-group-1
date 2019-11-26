@@ -176,7 +176,33 @@ if ( class_exists( 'WooCommerce' ) ) {
 }
 
 
-
+register_post_type('utp', array(
+    'labels'             => array(
+      'name'               => 'УТП', // Основное название типа записи
+      'singular_name'      => 'УТП', // отдельное название записи типа Book
+      'add_new'            => 'Добавить УТП',
+      'add_new_item'       => 'Добавить новое УТП',
+      'edit_item'          => 'Редактировать УТП',
+      'new_item'           => 'Новое УТП',
+      'view_item'          => 'Посмотреть УТП',
+      'search_items'       => 'Найти УТП',
+      'not_found'          => 'Не найдено',
+      'not_found_in_trash' => 'В корзине ничего не найдено',
+      'parent_item_colon'  => '',
+      'menu_name'          => 'УТП'
+      ),
+    'public'             => true,
+    'publicly_queryable' => true,
+    'show_ui'            => true,
+    'show_in_menu'       => true,
+    'query_var'          => true,
+    'rewrite'            => true,
+    'capability_type'    => 'post',
+    'has_archive'        => false,
+    'hierarchical'       => false,
+    'menu_position'      => null,
+    'supports'            => array( 'title', 'comments'  )  // 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields',
+    ));
 
 
 
@@ -245,7 +271,7 @@ register_post_type('actions', array(
         'hierarchical'       => false,
         'menu_position'      => null,
         'supports'            => array( 'title', 'comments'  )  // 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields',
-        ));
+    ));
 
 
 
@@ -456,3 +482,19 @@ function dimox_breadcrumbs() {
 
 
   pll_register_string('social1', 'social2');
+
+
+function hide_all_wc_prices() {
+return '';
+}
+add_filter( 'woocommerce_get_price_html', 'hide_all_wc_prices');
+
+
+add_filter( 'woocommerce_get_price_html', 'custom_price_html', 100, 2 );
+function custom_price_html( $price, $product ){
+
+$price .= '<span class="discount-old_price"><strike>' . get_post_meta( get_the_ID(), '_sale_price', true). '</strike></span>';
+$price .= '<span class="discount-new_price">' . get_post_meta( get_the_ID(), '_regular_price', true). ' ' . '<span>' . sprintf(get_woocommerce_currency_symbol() ) . '</span>' . '</span>';
+
+    return apply_filters( 'woocommerce_get_price', $price );
+}

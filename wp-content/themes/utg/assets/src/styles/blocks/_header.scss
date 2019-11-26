@@ -1,7 +1,7 @@
 .header {
   position: relative;
   z-index: 3;
-  
+
   &-top {
     padding: 10px 0;
     border-bottom: 1px solid #e8e8e8;
@@ -258,7 +258,6 @@
       justify-content: space-between;
 
       .menu-general {
-        display: none;
         position: absolute;
         z-index: 3;
         top: 100%;
@@ -268,10 +267,16 @@
         border-radius: 0px 0px 15px 15px;
         padding-bottom: 10px;
         background-color: $white;
+        display: none;
+
+        .menu-general-cover {
+          position: relative;
+        }
 
         .menu-item {
           padding: 10px;
-          position: relative;
+          display: flex;
+          justify-content: space-between;
 
           &:first-child {
             .menu-item__name {
@@ -279,24 +284,64 @@
             }
           }
 
-          .menu-item__name {
-            &::after {
-              content: url(/wp-content/themes/utg/images/arrow-right.png);
-              position: absolute;
-              right: 8px;
-              top: 10px;
-            }
+          .icon-arrow {
+            color: #adb4c2;
           }
 
           .sub-menu {
+            position: absolute;
+            display: none;
+            top: 0;
+            left: 100%;
+            background-color: $white;
+
             li {
+              display: flex;
+              flex-direction: column;
+              padding: 0px 15px;
               a {
+                border-bottom: 1px solid #e8e8e8;
+                display: block;
+                padding: 20px 10px;
+                font-family: "Montserrat";
+                color: #374864;
+                font-size: 14px;
+                font-weight: 700;
+              }
+              .under-sub-menu {
+                li {
+                  a {
+                    min-width: 250px;
+                    font-family: "Open Sans";
+                    font-weight: normal;
+                    border-bottom: none;
+                    color: #4a505f;
+
+                    &:hover {
+                      color: #0070bb;
+                    }
+                  }
+                }
               }
             }
           }
+
           &:hover {
-            background-color: #e5eff9;
             cursor: pointer;
+            background-color: #f8f9fc;
+
+            .icon-arrow {
+              color: #3c6da6;
+            }
+
+            .sub-menu {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              max-width: 640px;
+              width: 640px;
+              border-radius: 0px 0px 15px 15px;
+            }
           }
         }
 
@@ -313,6 +358,10 @@
           &:hover {
             background-color: #84bade;
           }
+        }
+
+        @media (min-width: $desktop) {
+          display: block;
         }
       }
     }
@@ -356,25 +405,24 @@
   }
 }
 
-
-.home .header .navigation-container .menu-general{
+.home .header {
   display: block;
 }
 
-.active .header{
+.active .header {
   position: relative;
   z-index: 3;
 
-  .navigation-container .menu-general{
+  .navigation-container .menu-general {
     display: block;
   }
 }
 
-.active{
+.active {
   position: relative;
 
-  &:after{
-    content: '';
+  &:after {
+    content: "";
     position: absolute;
     background-color: rgb(0, 0, 0);
     top: 0;
@@ -382,15 +430,15 @@
     left: 0;
     right: 0;
     z-index: 2;
-    opacity: .4;
+    opacity: 0.4;
   }
 }
 
-.breadcrumbs{
+.breadcrumbs {
   padding: 15px 0;
 
-  a{
-    color: #82878f!important;
+  a {
+    color: #82878f !important;
     font-family: "Open Sans";
   }
 }

@@ -1,4 +1,4 @@
-.blog{
+.blog-page{
   &_text{
     position: relative;
     z-index: 2;
@@ -62,11 +62,11 @@
 
     &:hover{
       
-      .blog_text{
+      .blog-page_text{
         & > *{
           color: $white!important;
         }
-        .blog_date{
+        .blog-page_date{
           &:before{
             color: $white;
           }
@@ -109,7 +109,7 @@
     width: 100%;
     margin: 50px auto;
 
-    .blog_date{
+    .blog-page_date{
       position: static;
     }
   }

@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: Blog
+Template Name: blog
 */
 
 get_header();?>
 
-<div class="blog">
+<div class="blog-page">
     <div class="flex_container">
         <div class="flex_row">
             <?php
@@ -21,14 +21,14 @@ get_header();?>
                             $text_blog = get_field('little_text');
                         ?>
                     <div class="flex_col--1-3">
-                        <a class="blog_link" href="<?php echo the_permalink( $post->ID )?>">
+                        <a class="blog-page_link" href="<?php echo the_permalink( $post->ID )?>">
                             <img src="<?php echo $image_blog['url'];?>" alt="">
-                            <div class="blog_text">
+                            <div class="blog-page_text">
                                 <b><?php the_title();?></b>
-                                <div class="blog_desc">
+                                <div class="blog-page_desc">
                                    <p><?php echo $text_blog;?></p>
                                 </div>
-                                <span class="blog_date"><?php echo the_date();?></span>
+                                <span class="blog-page_date"><?php echo the_date();?></span>
                             </div>
                         </a>
                     </div>
