@@ -1237,6 +1237,15 @@
             letter-spacing: 0.35px;
           }
         }
+
+        &:last-child {
+          span {
+            p {
+              max-height: 90px;
+              overflow-x: hidden;
+            }
+          }
+        }
       }
 
       &:focus {
