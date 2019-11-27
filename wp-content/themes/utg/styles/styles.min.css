@@ -1485,6 +1485,10 @@ textarea {
     display: flex;
     border: none;
     padding: 25px 15px; }
+    .reviews-block .reviews-block-main .slick-slide {
+      outline: none; }
+      .reviews-block .reviews-block-main .slick-slide > * {
+        outline: none; }
     .reviews-block .reviews-block-main .slick-dots {
       display: -webkit-box;
       display: flex;
