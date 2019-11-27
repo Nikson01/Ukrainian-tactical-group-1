@@ -1,0 +1,12 @@
+2019-10-18T08:50:20+00:00 CRITICAL Call to a member function get_sku() on null в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php на строке 31
+
+2019-10-18T08:50:27+00:00 CRITICAL Call to a member function get_sku() on null в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php на строке 31
+
+2019-10-18T08:56:21+00:00 CRITICAL Call to a member function get_sku() on null в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php на строке 31
+
+2019-10-18T08:58:38+00:00 CRITICAL Call to a member function get_sku() on null в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php на строке 31
+
+2019-10-18T09:44:00+00:00 CRITICAL Call to undefined function get_date() в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\single-actions.php на строке 20
+
+2019-10-18T10:25:35+00:00 CRITICAL syntax error, unexpected '--' (T_DEC) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\single-actions.php на строке 52
+

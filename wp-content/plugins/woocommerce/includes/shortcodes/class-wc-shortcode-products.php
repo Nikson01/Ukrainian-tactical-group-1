@@ -673,7 +673,7 @@ class WC_Shortcode_Products {
 			do_action( "woocommerce_shortcode_{$this->type}_loop_no_results", $this->attributes );
 		}
 
-		return '<div class="' . esc_attr( implode( ' ', $classes ) ) . '">' . ob_get_clean() . '</div>';
+		return;
 	}
 
 	/**

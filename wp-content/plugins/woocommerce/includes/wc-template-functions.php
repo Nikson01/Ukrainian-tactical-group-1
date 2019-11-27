@@ -1118,7 +1118,7 @@ if ( ! function_exists( 'woocommerce_template_loop_product_title' ) ) {
 	 * Show the product title in the product loop. By default this is an H2.
 	 */
 	function woocommerce_template_loop_product_title() {
-		echo '<h2 class="' . esc_attr( apply_filters( 'woocommerce_product_loop_title_classes', 'woocommerce-loop-product__title' ) ) . '">' . get_the_title() . '</h2>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo '<div class="discount-name"><span class="' . esc_attr( apply_filters( 'woocommerce_product_loop_title_classes', 'woocommerce-loop-product__title' ) ) . '">' . get_the_title() . '</span></div>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }
 if ( ! function_exists( 'woocommerce_template_loop_category_title' ) ) {
@@ -1131,7 +1131,8 @@ if ( ! function_exists( 'woocommerce_template_loop_category_title' ) ) {
 	function woocommerce_template_loop_category_title( $category ) {
 		?>
 		<h2 class="woocommerce-loop-category__title">
-			<?php
+            <?php
+            
 			echo esc_html( $category->name );
 
 			if ( $category->count > 0 ) {
@@ -1152,9 +1153,14 @@ if ( ! function_exists( 'woocommerce_template_loop_product_link_open' ) ) {
 
 		$link = apply_filters( 'woocommerce_loop_product_link', get_the_permalink(), $product );
 
-		echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+        echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+
+        
 	}
 }
+
+
+
 
 if ( ! function_exists( 'woocommerce_template_loop_product_link_close' ) ) {
 	/**
@@ -1164,6 +1170,8 @@ if ( ! function_exists( 'woocommerce_template_loop_product_link_close' ) ) {
 		echo '</a>';
 	}
 }
+
+
 
 if ( ! function_exists( 'woocommerce_template_loop_category_link_open' ) ) {
 	/**
@@ -3427,11 +3435,16 @@ function wc_get_stock_html( $product ) {
 function wc_get_rating_html( $rating, $count = 0 ) {
 	$html = '';
 
-	if ( 0 < $rating ) {
+	
 		/* translators: %s: rating */
 		$label = sprintf( __( 'Rated %s out of 5', 'woocommerce' ), $rating );
-		$html  = '<div class="star-rating" role="img" aria-label="' . esc_attr( $label ) . '">' . wc_get_star_rating_html( $rating, $count ) . '</div>';
-	}
+		$html  = '<div class="discount-rate"><div>
+        <span class="icon-star-product"></span>
+        <span class="icon-star-product"></span>
+        <span class="icon-star-product"></span>
+        <span class="icon-star-product"></span>
+        <span class="icon-star-product"></span>
+    </div>';
 
 	return apply_filters( 'woocommerce_product_get_rating_html', $html, $rating, $count );
 }

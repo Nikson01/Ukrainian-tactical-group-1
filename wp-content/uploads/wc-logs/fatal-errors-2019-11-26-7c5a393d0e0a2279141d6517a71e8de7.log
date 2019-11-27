@@ -1,0 +1,12 @@
+2019-11-26T09:23:06+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 25
+
+2019-11-26T09:23:18+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 25
+
+2019-11-26T09:28:24+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 25
+
+2019-11-26T09:42:28+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 26
+
+2019-11-26T09:42:37+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 26
+
+2019-11-26T09:49:15+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\price.php на строке 25
+

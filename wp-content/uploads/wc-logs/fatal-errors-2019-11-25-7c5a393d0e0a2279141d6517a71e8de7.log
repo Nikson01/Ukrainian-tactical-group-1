@@ -1,0 +1,155 @@
+2019-11-25T12:24:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function hide_all_wc_prices(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:462
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): hide_all_wc_prices('<del><span clas...')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\price.php(25): WC_Product->get_price_html()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-co в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 462
+
+2019-11-25T12:24:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function hide_all_wc_prices(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:462
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): hide_all_wc_prices('<del><span clas...')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\price.php(25): WC_Product->get_price_html()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-co в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 462
+
+2019-11-25T12:24:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function hide_all_wc_prices(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:462
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): hide_all_wc_prices('<del><span clas...')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\price.php(25): WC_Product->get_price_html()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-co в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 462
+
+2019-11-25T12:35:39+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 474
+
+2019-11-25T12:35:42+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 474
+
+2019-11-25T12:36:18+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 474
+
+2019-11-25T12:36:36+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 474
+
+2019-11-25T12:36:44+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 474
+
+2019-11-25T13:27:39+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php:26
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1190): wc_get_template('loop/add-to-car...', NULL)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once('C:\\Work\\OSPanel...')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OSP в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 26
+
+2019-11-25T13:30:06+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_loop_end() in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php:661
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(140): WC_Shortcode_Products->get_content()
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\shortcodes.php(325): WC_Shortcodes::product_category(Array, '', 'product_categor...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_catego...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.ph в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php на строке 661
+
+2019-11-25T13:42:09+00:00 CRITICAL syntax error, unexpected 'N' (T_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3439
+
+2019-11-25T13:42:59+00:00 CRITICAL syntax error, unexpected '.' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3439
+
+2019-11-25T13:43:10+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3439
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\templates\loop\rating.php(28): wc_get_rating_html('0')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1299): wc_get_template('loop/rating.php')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_rating('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OSPanel\domai в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3439
+
+2019-11-25T13:43:20+00:00 CRITICAL syntax error, unexpected 'esc_html_e' (T_STRING) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3439
+
+2019-11-25T13:43:28+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3439
+
+2019-11-25T13:43:43+00:00 CRITICAL syntax error, unexpected ''</span>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3440
+
+2019-11-25T13:43:55+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3439
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\templates\loop\rating.php(28): wc_get_rating_html('0')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1299): wc_get_template('loop/rating.php')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_rating('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OSPanel\domai в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3439
+
+2019-11-25T13:45:26+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3451
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\templates\loop\rating.php(28): wc_get_rating_html('0')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1299): wc_get_template('loop/rating.php')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_rating('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OSPanel\domai в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3451
+
+2019-11-25T13:46:09+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3451
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\templates\loop\rating.php(28): wc_get_rating_html('0')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1299): wc_get_template('loop/rating.php')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_rating('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OSPanel\domai в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3451
+
+2019-11-25T13:46:32+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3451
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\templates\loop\rating.php(28): wc_get_rating_html('0')
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1299): wc_get_template('loop/rating.php')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_rating('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OSPanel\domai в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 3451
+
+2019-11-25T13:54:02+00:00 CRITICAL Cannot redeclare woocommerce_template_loop_add_to_cart() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\price.php:42) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\price.php на строке 42
+
+2019-11-25T14:02:14+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php:26
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1186): wc_get_template('loop/add-to-car...', Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once('C:\\Work\\OSPanel...')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OS в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 26
+
+2019-11-25T14:02:15+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php:26
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1186): wc_get_template('loop/add-to-car...', Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once('C:\\Work\\OSPanel...')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\Work\OS в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\loop\add-to-cart.php на строке 26
+
+2019-11-25T14:30:47+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_product_category() in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\content-product.php:53
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(724): require()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-core-functions.php(195): load_template('C:\\Work\\OSPanel...', false)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(653): wc_get_template_part('content', 'product')
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(140): WC_Shortcode_Products->get_content()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\w в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\woocommerce\content-product.php на строке 53
+
+2019-11-25T14:32:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1176
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\class-woocommerce.php(530): include_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(286): WooCommerce->include_template_functions('')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-settings.php(509): do_action('after_setup_the...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-config.php(90): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-load.php(37): require_once('C:\\Work\\OSPanel...')
+#7 C:\Work\ в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\plugins\woocommerce\includes\wc-template-functions.php на строке 1176
+
