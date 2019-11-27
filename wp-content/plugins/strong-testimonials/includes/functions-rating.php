@@ -79,12 +79,12 @@ function wpmtst_star_rating_display( $value = 0, $class = 'in-view', $echo = tru
 	ob_start(); ?>
 	<span class="strong-rating-wrapper <?php echo $class; ?>">
 		<span class="strong-rating"><!-- cheap trick to collapse whitespace around inline-blocks
-			--><span class="star<?php echo ( 0 == $value ) ? ' current' : '' ; ?>" style="display: none;"></span><!--
-			--><span class="star<?php echo ( 1 == $value ) ? ' current' : '' ; ?>"></span><!--
-			--><span class="star<?php echo ( 2 == $value ) ? ' current' : '' ; ?>"></span><!--
-			--><span class="star<?php echo ( 3 == $value ) ? ' current' : '' ; ?>"></span><!--
-			--><span class="star<?php echo ( 4 == $value ) ? ' current' : '' ; ?>"></span><!--
-			--><span class="star<?php echo ( 5 == $value ) ? ' current' : '' ; ?>"></span><!--
+			--><span class="icon-star-product<?php echo ( 0 == $value ) ? ' current' : '' ; ?>" style="display: none;"></span><!--
+			--><span class="icon-star-product<?php echo ( 1 == $value ) ? ' current' : '' ; ?>"></span><!--
+			--><span class="icon-star-product<?php echo ( 2 == $value ) ? ' current' : '' ; ?>"></span><!--
+			--><span class="icon-star-product<?php echo ( 3 == $value ) ? ' current' : '' ; ?>"></span><!--
+			--><span class="icon-star-product<?php echo ( 4 == $value ) ? ' current' : '' ; ?>"></span><!--
+			--><span class="icon-star-product<?php echo ( 5 == $value ) ? ' current' : '' ; ?>"></span><!--
 		--></span>
 	</span>
 	<?php
