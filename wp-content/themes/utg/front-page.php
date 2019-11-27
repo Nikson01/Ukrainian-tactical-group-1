@@ -167,7 +167,6 @@ get_header();?>
        
 
     </div>
-</div>
 
     <div class='news__block'>
         <div class='news__block-title'>
@@ -192,46 +191,34 @@ get_header();?>
             </div>
             <div class='flex_col-tab flex_col-desk--2-3 without-padding'>   
                 <div class='news__second'>      
-
-
-                    <a class='news__second-block' href="#">
-                        <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
-                        <div class='news__second-content'>
-                            <span>статьи</span>
-                            <b>Как правильно настроить оптический прицел?</b>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                            <span>17.02.2019</span>
-                        </div>
-                    </a> 
-
-
-                    <a class='news__second-block' href="#">
-                        <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
-                        <div class='news__second-content'>
-                            <span>статьи</span>
-                            <b>Как правильно настроить оптический прицел?</b>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                            <span class='icon-calendar'> 17.02.2019</span>                        
-                        </div>
-                    </a>     
-
-
-                    <a href="#" class='news__second-block'>  
-                        <img class="news__second-block-img" src="/wp-content/themes/utg/images/News-img-last.png" alt="">
-                        <div class='news__second-content'>
-                            <span>статьи</span>
-                            <b>Как правильно настроить оптический прицел?</b>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                            <span class='icon-calendar'> 17.02.2019</span> 
-                        </div>
-                    </a>      
-
+                    <?php
+                        $params = array(
+                            'post_type' => 'blog',
+                            'posts_per_page' => 3,
+                        );
+                        $query = new WP_Query( $params );
+                        ?>
+                        <?php if($query->have_posts()): ?>
+                            <?php while ($query->have_posts()): $query->the_post() ?>
+                                <?php $image_blog = get_field('image_blog');
+                                    $text_blog = get_field('little_text');
+                                ?>
+                        
+                                <a class='news__second-block' href="<?php echo the_permalink( $post->ID )?>">
+                                    <img class="news__second-block-img" src="<?php echo $image_blog['url'];?>" alt="">
+                                    <div class='news__second-content'>
+                                        <span>статьи</span>
+                                        <b><?php the_title();?></b>
+                                        <p><?php echo $text_blog;?></p>
+                                        <span class='icon-calendar'><?php echo the_date();?></span>                        
+                                    </div>
+                                </a> 
+                            <?php endwhile; ?>
+                    <?php endif; ?>
                 </div>         
             </div>
         </div>
     </div>
-
-    
 
     <div class='reviews-block'>
         <div class='reviews-block__title'>

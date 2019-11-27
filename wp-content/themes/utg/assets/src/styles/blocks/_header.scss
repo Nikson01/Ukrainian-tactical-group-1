@@ -359,10 +359,6 @@
             background-color: #84bade;
           }
         }
-
-        @media (min-width: $desktop) {
-          display: block;
-        }
       }
     }
   }
@@ -405,9 +401,13 @@
   }
 }
 
-.home .header {
-  display: block;
-}
+.home{
+
+  .navigation-container .menu-general,
+  .header{
+    display: block;
+  }
+} 
 
 .active .header {
   position: relative;
