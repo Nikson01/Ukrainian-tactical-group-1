@@ -29,10 +29,6 @@ if ( ! function_exists( 'wc_get_gallery_image_html' ) ) {
 
     <div class="product-image">
 
-
-
-
-
     <?php
 
 
