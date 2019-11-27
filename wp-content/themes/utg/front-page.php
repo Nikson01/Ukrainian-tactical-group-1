@@ -162,10 +162,12 @@ get_header();?>
                             </div>
                         </div>
                     <?php endwhile; ?>
-                <?php endwhile; 
-            ?>
-        </div>
+               
+            <?php endwhile; ?>
+       
+
     </div>
+</div>
 
     <div class='news__block'>
         <div class='news__block-title'>
@@ -181,47 +183,55 @@ get_header();?>
                 <div class='news__first'>
                     <h3> Следите за нами в соц. сетях </h3>
                     <div class='news__links'>
-                        <a href="#"> <span class="icon-facebook"></span> </a>
-                        <a href="#"> <span class="icon-instagram"></span> </a>
-                        <a href="#"> <span class="icon-twitter"></span> </a>
+                        <a href="<?php the_field('social_fb');?>"> <span class="icon-facebook"></span> </a>
+                        <a href="<?php the_field('social_insta');?>"> <span class="icon-instagram"></span> </a>
+                        <a href="<?php the_field('social_tw');?>"> <span class="icon-twitter"></span> </a>
                     </div>
                     <img class='news__img' src="/wp-content/themes/utg/images/phone.png">               
                 </div>
             </div>
-            <div class='flex_col-tab flex_col-desk--1-3 without-padding'>   
+            <div class='flex_col-tab flex_col-desk--2-3 without-padding'>   
                 <div class='news__second'>      
+
+
                     <a class='news__second-block' href="#">
                         <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
                         <div class='news__second-content'>
                             <span>статьи</span>
                             <b>Как правильно настроить оптический прицел?</b>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                             <span>17.02.2019</span>
                         </div>
                     </a> 
+
+
                     <a class='news__second-block' href="#">
                         <img class="news__second-block-img" src="/wp-content/themes/utg/images/gun_background.png" alt="">
                         <div class='news__second-content'>
                             <span>статьи</span>
                             <b>Как правильно настроить оптический прицел?</b>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                             <span class='icon-calendar'> 17.02.2019</span>                        
                         </div>
                     </a>     
+
+
+                    <a href="#" class='news__second-block'>  
+                        <img class="news__second-block-img" src="/wp-content/themes/utg/images/News-img-last.png" alt="">
+                        <div class='news__second-content'>
+                            <span>статьи</span>
+                            <b>Как правильно настроить оптический прицел?</b>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                            <span class='icon-calendar'> 17.02.2019</span> 
+                        </div>
+                    </a>      
+
                 </div>         
             </div>
-        
-            <div class='flex_col-tab flex_col-desk--1-3 without-padding'>          
-                <a href="#" class='news__third'>  
-                    <img class="news__third-block-img" src="/wp-content/themes/utg/images/News-img-last.png" alt="">
-                    <div class='news__third-content'>
-                        <span>статьи</span>
-                        <b>Как правильно настроить оптический прицел?</b>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                        <span class='icon-calendar'> 17.02.2019</span> 
-                    </div>
-                </a>          
-            </div> 
         </div>
     </div>
+
+    
 
     <div class='reviews-block'>
         <div class='reviews-block__title'>
