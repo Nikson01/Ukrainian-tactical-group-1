@@ -24,7 +24,7 @@
 
 <script>
     $(".menuContainer").hover(function(){
-        $("body").toggleClass("active");
+        $("body").toggleClass("active_body");
     })
 </script>
 <script>
