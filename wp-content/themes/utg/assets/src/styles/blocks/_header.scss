@@ -409,7 +409,7 @@
   }
 } 
 
-.active .header {
+.active_body .header {
   position: relative;
   z-index: 3;
 
@@ -418,7 +418,7 @@
   }
 }
 
-.active {
+.active_body {
   position: relative;
 
   &:after {

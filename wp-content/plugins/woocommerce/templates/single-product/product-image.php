@@ -25,11 +25,15 @@ if ( ! function_exists( 'wc_get_gallery_image_html' ) ) {
 
 ?>
 
-<div class="flex_row">
+<div class="flex_row single-product-page">
 
     <div class="product-image">
 
+    
+
     <?php
+
+        echo do_shortcode('[ti_wishlists_addtowishlist]');
 
 
     global $product;
