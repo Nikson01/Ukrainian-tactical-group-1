@@ -1,0 +1,112 @@
+2019-11-29T10:42:46+00:00 CRITICAL Uncaught Error: Class 'Walker_Main_Menu' not found in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php:104
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-blog-header.php(19): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\index.php(17): require('C:\\Work\\OSPanel...')
+#7 {main}
+  thrown в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 104
+
+2019-11-29T10:42:48+00:00 CRITICAL Uncaught Error: Class 'Walker_Main_Menu' not found in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php:104
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-blog-header.php(19): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\index.php(17): require('C:\\Work\\OSPanel...')
+#7 {main}
+  thrown в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 104
+
+2019-11-29T10:42:49+00:00 CRITICAL Uncaught Error: Class 'Walker_Main_Menu' not found in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php:104
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-blog-header.php(19): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\index.php(17): require('C:\\Work\\OSPanel...')
+#7 {main}
+  thrown в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 104
+
+2019-11-29T11:22:43+00:00 CRITICAL require(): Failed opening required 'C:\Work\OSPanel\domains\Ukrainian-tactical-group/wp-content/themes/utg/inc/admin.php' (include_path='.;c:/work/ospanel/modules/php/PHP-7.2;c:/work/ospanel/modules/php/PHP-7.2/PEAR/pear') в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 394
+
+2019-11-29T11:22:45+00:00 CRITICAL require(): Failed opening required 'C:\Work\OSPanel\domains\Ukrainian-tactical-group/wp-content/themes/utg/inc/admin.php' (include_path='.;c:/work/ospanel/modules/php/PHP-7.2;c:/work/ospanel/modules/php/PHP-7.2/PEAR/pear') в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 394
+
+2019-11-29T11:23:06+00:00 CRITICAL require(): Failed opening required 'C:\Work\OSPanel\domains\Ukrainian-tactical-group/wp-content/themes/utg/inc/admin.php' (include_path='.;c:/work/ospanel/modules/php/PHP-7.2;c:/work/ospanel/modules/php/PHP-7.2/PEAR/pear') в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 394
+
+2019-11-29T11:23:39+00:00 CRITICAL require(): Failed opening required 'C:\Work\OSPanel\domains\Ukrainian-tactical-group/wp-content/themes/utg/inc/admin.php' (include_path='.;c:/work/ospanel/modules/php/PHP-7.2;c:/work/ospanel/modules/php/PHP-7.2/PEAR/pear') в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 394
+
+2019-11-29T11:24:10+00:00 CRITICAL require(): Failed opening required 'C:\Work\OSPanel\domains\Ukrainian-tactical-group/wp-content/themes/utg/inc/*.php' (include_path='.;c:/work/ospanel/modules/php/PHP-7.2;c:/work/ospanel/modules/php/PHP-7.2/PEAR/pear') в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 565
+
+2019-11-29T11:26:16+00:00 CRITICAL syntax error, unexpected '$attributes' (T_VARIABLE) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 646
+
+2019-11-29T11:26:19+00:00 CRITICAL syntax error, unexpected '$attributes' (T_VARIABLE) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 646
+
+2019-11-29T11:37:45+00:00 CRITICAL Uncaught Error: Class 'Walker_Main_Menu' not found in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php:39
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\page-actions.php(7): get_header()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-blog-header.php(19): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\index.php(17): require('C:\\Work\\OSPanel...')
+#7 {main}
+  thrown в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 39
+
+2019-11-29T11:37:48+00:00 CRITICAL Uncaught Error: Class 'Walker_Main_Menu' not found in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php:39
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-blog-header.php(19): require_once('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPanel\domains\Ukrainian-tactical-group\index.php(17): require('C:\\Work\\OSPanel...')
+#7 {main}
+  thrown в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 39
+
+2019-11-29T11:39:50+00:00 CRITICAL require(): Failed opening required 'C:\Work\OSPanel\domains\Ukrainian-tactical-group/wp-content/themes/utg/inc/custom-header.php' (include_path='.;c:/work/ospanel/modules/php/PHP-7.2;c:/work/ospanel/modules/php/PHP-7.2/PEAR/pear') в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 147
+
+2019-11-29T11:51:37+00:00 CRITICAL Cannot redeclare magomra_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:595) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 112
+
+2019-11-29T11:51:38+00:00 CRITICAL Cannot redeclare magomra_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:595) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 112
+
+2019-11-29T11:51:39+00:00 CRITICAL Cannot redeclare magomra_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:595) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 112
+
+2019-11-29T11:51:51+00:00 CRITICAL Cannot redeclare magomra_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:596) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 112
+
+2019-11-29T11:53:15+00:00 CRITICAL Cannot declare class magomra_walker_nav_menu, because the name is already in use в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 155
+
+2019-11-29T11:53:18+00:00 CRITICAL Cannot declare class magomra_walker_nav_menu, because the name is already in use в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 155
+
+2019-11-29T12:29:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:542
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 542
+
+2019-11-29T12:29:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:542
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 542
+
+2019-11-29T12:29:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:542
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 542
+

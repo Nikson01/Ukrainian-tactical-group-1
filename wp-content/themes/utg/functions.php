@@ -524,3 +524,24 @@ $price .= '<span class="discount-new_price">' . get_post_meta( get_the_ID(), '_r
 
     return apply_filters( 'woocommerce_get_price', $price );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+add_filter( 'nav_menu_submenu_css_class', 'change_wp_nav_menu', 1, 3 );
+
+function change_wp_nav_menu( $classes, $args, $depth ) {
+	return [];
+}
+
+
+
