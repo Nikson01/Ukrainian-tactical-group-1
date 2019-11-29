@@ -532,16 +532,8 @@ $price .= '<span class="discount-new_price">' . get_post_meta( get_the_ID(), '_r
 
 
 
-
-
-
-
-
-add_filter( 'nav_menu_submenu_css_class', 'change_wp_nav_menu', 1, 3 );
-
+add_filter( 'nav_menu_submenu_css_class', 'change_wp_nav_menu', 10, 1 );
 function change_wp_nav_menu( $classes, $args, $depth ) {
-	return [];
+	$classes[] = 'sub-menu';
+	return $classes;
 }
-
-
-

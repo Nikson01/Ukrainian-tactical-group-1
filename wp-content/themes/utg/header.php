@@ -96,6 +96,9 @@
                         <?php wp_nav_menu('menu=All categories'); ?>
 
 
+                        
+
+
                             <li class="menu-item">
                                 <a class="menu-item__name" href="#">Новинки</a>
                                 <span class='icon-arrow'></span>

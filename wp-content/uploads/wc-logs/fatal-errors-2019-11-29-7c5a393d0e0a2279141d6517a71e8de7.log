@@ -110,3 +110,493 @@ Stack trace:
 #3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
 #4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 542
 
+2019-11-29T12:57:50+00:00 CRITICAL Cannot redeclare change_wp_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:539) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 553
+
+2019-11-29T12:57:52+00:00 CRITICAL Cannot redeclare change_wp_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:539) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 553
+
+2019-11-29T12:58:46+00:00 CRITICAL Cannot redeclare change_wp_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:539) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 552
+
+2019-11-29T12:58:48+00:00 CRITICAL Cannot redeclare change_wp_nav_menu() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:539) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 552
+
+2019-11-29T13:20:59+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:01+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:24+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:25+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:29+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:29+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:47+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 538
+
+2019-11-29T13:21:52+00:00 CRITICAL syntax error, unexpected '}' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 539
+
+2019-11-29T13:21:53+00:00 CRITICAL syntax error, unexpected '}' в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 539
+
+2019-11-29T13:22:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:22:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:22:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:22:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:22:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:22:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:24:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:24:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:32+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:36+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:25:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:534
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 534
+
+2019-11-29T13:25:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:534
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 534
+
+2019-11-29T13:30:31+00:00 CRITICAL syntax error, unexpected end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 200
+
+2019-11-29T13:30:34+00:00 CRITICAL syntax error, unexpected end of file в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 200
+
+2019-11-29T13:33:33+00:00 CRITICAL Cannot redeclare view_cat() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:560) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 120
+
+2019-11-29T13:33:36+00:00 CRITICAL Cannot redeclare view_cat() (previously declared in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:560) в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php на строке 120
+
+2019-11-29T13:35:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:35:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 2 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array, Object(stdClass))
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:38:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPan в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPan в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 121 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(121): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Wo в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 121 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(121): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Wo в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 121 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(121): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work\OSP в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 121 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(121): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Wo в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 121 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(121): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Wo в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:38:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 121 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(121): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work\OSP в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPan в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\front-page.php(5): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php on line 96 and at least 1 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php:664
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\header.php(96): wp_get_nav_menu_items()
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(722): require_once('C:\\Work\\OSPanel...')
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template.php(671): load_template('C:\\Work\\OSPanel...', true)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\general-template.php(41): locate_template(Array, true)
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\404.php(10): get_header()
+#5 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\template-loader.php(78): include('C:\\Work\\OSPanel...')
+#6 C:\Work\OSPan в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\nav-menu.php на строке 664
+
+2019-11-29T13:39:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:39:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:39:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:39:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
+2019-11-29T13:43:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function change_wp_nav_menu(), 1 passed in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php:536
+Stack trace:
+#0 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-hook.php(288): change_wp_nav_menu(Array)
+#1 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-walker-nav-menu.php(75): apply_filters('nav_menu_submen...', Array, Object(stdClass), 0)
+#3 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(156): Walker_Nav_Menu->start_lvl('<li id="menu-it...', 0, Object(stdClass))
+#4 C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-includes\class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="m в C:\Work\OSPanel\domains\Ukrainian-tactical-group\wp-content\themes\utg\functions.php на строке 536
+
