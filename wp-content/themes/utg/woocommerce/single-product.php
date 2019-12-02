@@ -23,7 +23,6 @@ get_header( 'shop' ); ?>
 
 <div class="flex_container">
 
-
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
@@ -37,20 +36,7 @@ get_header( 'shop' ); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
             <?php wc_get_template_part( 'content', 'single-product' ); 
-            
-            echo do_shortcode('[ti_wishlists_addtowishlist]');
             ?>
-
-
-         
-
-
-           
-                <span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> 
-                <span class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
-           
-
-            
 
 		<?php endwhile; // end of the loop. ?>
 
@@ -71,13 +57,8 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
     ?>
-    
 
-
-
-    </div>
-
+</div>
 
 <?php get_footer( 'shop' );
-
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */

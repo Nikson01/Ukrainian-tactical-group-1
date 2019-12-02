@@ -207,7 +207,33 @@ register_post_type('utp', array(
 
 
 
-
+    register_post_type('slider', array(
+        'labels'             => array(
+          'name'               => 'Слайдер', // Основное название типа записи
+          'singular_name'      => 'Слайдер', // отдельное название записи типа Book
+          'add_new'            => 'Добавить слайдер',
+          'add_new_item'       => 'Добавить новый слайдер',
+          'edit_item'          => 'Редактировать слайдер',
+          'new_item'           => 'Новый слайдер',
+          'view_item'          => 'Посмотреть слайдер',
+          'search_items'       => 'Найти слайдер',
+          'not_found'          => 'Не найдено',
+          'not_found_in_trash' => 'В корзине ничего не найдено',
+          'parent_item_colon'  => '',
+          'menu_name'          => 'Слайдер'
+          ),
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => true,
+        'capability_type'    => 'post',
+        'has_archive'        => false,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'            => array( 'title', 'comments'  )  // 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields',
+        ));
 
 
 
@@ -498,3 +524,18 @@ $price .= '<span class="discount-new_price">' . get_post_meta( get_the_ID(), '_r
 
     return apply_filters( 'woocommerce_get_price', $price );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,15 +20,16 @@
   #primary{
     order: 2;
     width: 100%;
+    background-color: $white;
   }
 }
 
 .products{
   .product{
     background-color: $white;
-    border-right: 1px solid #E8E8E8;
-    border-bottom: 1px solid #E8E8E8;
-    padding: 15px;
+    // border-right: 1px solid #E8E8E8;
+    // border-bottom: 1px solid #E8E8E8;
+    padding: 0;
     position: relative;
 
     img{
@@ -73,4 +74,8 @@
     border-radius: 6px;
     outline: none;
   }
+}
+
+.flex_row_loop{
+  flex-wrap: wrap;
 }

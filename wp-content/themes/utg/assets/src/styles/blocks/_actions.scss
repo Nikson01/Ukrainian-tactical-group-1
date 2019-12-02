@@ -244,6 +244,17 @@
 .discount-products {
   margin-top: 50px;
 
+  .flex_col--1-3.product {
+    padding: 0;
+  }
+
+  &.popular_product {
+    .flex_col--1-3 {
+      width: calc(99.9% / 4);
+      padding: 0;
+    }
+  }
+
   .discount-products__title {
     display: flex;
     justify-content: space-between;
@@ -371,208 +382,213 @@
     .without-padding {
       padding: 0;
     }
-    .discount-products_block {
-      border: 1px solid #e8e8e8;
-      width: 99%;
-      margin: auto;
+  }
+}
 
-      a {
-        display: block;
-        padding: 25px 15px 0px;
-        position: relative;
+.discount-products_block {
+  outline: 1px solid #e8e8e8;
+  margin: auto;
+  background-color: $white;
 
-        .discount-top {
-          display: flex;
-          justify-content: space-between;
-          position: absolute;
-          top: 13px;
-          left: 15px;
+  a {
+    display: block;
+    padding: 25px 15px 0px;
+    position: relative;
 
-          span {
-            &:first-child {
-              font-family: "Open Sans";
-              font-size: 14px;
-              font-weight: 700;
-              color: #2a3143;
-            }
-          }
+    .discount-top {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 13px;
+      left: 15px;
+
+      span {
+        &:first-child {
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 700;
+          color: #2a3143;
         }
+      }
+    }
 
-        .discount-img {
-          margin: 15px 0px;
+    .discount-img {
+      margin: 15px 0px;
 
-          img {
-            margin: auto;
-          }
-        }
+      img {
+        margin: auto;
+      }
+    }
 
-        .discount-category {
-          display: flex;
-          justify-content: flex-end;
+    .discount-category {
+      display: flex;
+      justify-content: flex-end;
 
-          span {
-            font-family: "Open Sans";
-            font-size: 14px;
-            font-weight: 400;
-            color: #4a5060;
-            opacity: 0.5;
-          }
-        }
+      span {
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        color: #4a5060;
+        opacity: 0.5;
+      }
+    }
 
-        .discount-name {
-          margin: 15px 0px;
-          min-height: 35px;
+    .discount-name {
+      margin: 15px 0px;
+      min-height: 35px;
 
-          span {
-            font-family: "Open Sans";
-            font-size: 16px;
-            color: #2a2c31;
-            font-weight: 600;
-          }
-        }
+      span {
+        font-family: "Open Sans";
+        font-size: 16px;
+        color: #2a2c31;
+        font-weight: 600;
+      }
+    }
 
-        .discount-rate {
-          display: flex;
-          justify-content: space-between;
+    .discount-rate {
+      display: flex;
+      justify-content: space-between;
 
-          div {
-            span {
-              color: #ffdd00;
-            }
-          }
-
-          span {
-            font-family: "Open Sans";
-            color: #afafaf;
-            font-size: 14px;
-            font-weight: 400;
-          }
-        }
-
-        .discount-code {
-          display: flex;
-          justify-content: flex-end;
-          margin: 10px 0px;
-
-          span {
-            font-family: "Open Sans";
-            color: #afafaf;
-            font-weight: 400;
-            font-size: 12px;
-          }
+      div {
+        span {
+          color: #ffdd00;
         }
       }
 
-      .discount-price {
-        display: flex;
-        justify-content: space-between;
-        padding: 15px 15px 25px;
-
-        .discount-price__first-block {
-          display: flex;
-          flex-direction: column;
-          animation-duration: 0.3s;
-          animation-name: slideout;
-
-          @keyframes slideout {
-            from {
-              margin-left: 0%;
-            }
-
-            to {
-              margin-left: 37%;
-            }
-          }
-
-          span {
-            &:first-child {
-              font-family: "Open Sans";
-              font-size: 16px;
-              font-weight: 400;
-              color: #bebebe;
-            }
-
-            &:last-child {
-              font-family: "Open Sans";
-              font-size: 24px;
-              color: #2a2c31;
-              font-weight: 700;
-              min-width: 120px;
-
-              span {
-                font-family: "Segoe UI";
-                font-weight: 700;
-              }
-            }
-          }
-
-          @media (min-width: $desktop) {
-            margin-left: 37%;
-          }
-        }
-        .discount-price__second-block {
-          opacity: 1;
-          visibility: inherit;
-          transition: opacity 0.4s, visibility 0s linear 0.3s;
-          width: 50%;
-
-          button {
-            font-family: Manrope;
-            font-size: 13px;
-            font-weight: 700;
-            color: $white;
-            letter-spacing: 0.97px;
-            box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
-            border-radius: 6px;
-            background-color: #3c6da6;
-            padding: 15px 0px;
-            width: 100%;
-
-            &:hover {
-              cursor: pointer;
-            }
-          }
-
-          @media (min-width: $desktop) {
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.4s, visibility 0s linear 0.3s;
-            width: 0%;
-          }
-        }
+      span {
+        font-family: "Open Sans";
+        color: #afafaf;
+        font-size: 14px;
+        font-weight: 400;
       }
+    }
 
-      &:hover {
-        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
-        border: 1px solid $white;
+    .discount-code {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px 0px;
 
-        .discount-price__second-block {
-          @media (min-width: $desktop) {
-            width: 60%;
-            opacity: 1;
-            visibility: visible;
-            transition-delay: 0s;
-          }
-        }
+      span {
+        font-family: "Open Sans";
+        color: #afafaf;
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+  }
 
-        .discount-price__first-block {
-          animation-duration: 0.3s;
-          animation-name: slidein;
+  .discount-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 25px;
+    overflow: hidden;
+
+    .discount-price__first-block {
+      display: flex;
+      flex-direction: column;
+      animation-duration: 0.3s;
+      animation-name: slideout;
+
+      @keyframes slideout {
+        from {
           margin-left: 0%;
+        }
 
-          @keyframes slidein {
-            from {
-              margin-left: 37%;
-            }
+        to {
+          margin-left: 37%;
+        }
+      }
 
-            to {
-              margin-left: 0%;
-            }
-          }
-          @media (min-width: $desktop) {
-            margin-left: 0%;
+      span {
+        &:first-child {
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-weight: 400;
+          color: #bebebe;
+        }
+
+        &:last-child {
+          font-family: "Open Sans";
+          font-size: 24px;
+          color: #2a2c31;
+          font-weight: 700;
+          min-width: 120px;
+          margin: auto;
+
+          span {
+            font-family: "Segoe UI";
+            font-weight: 700;
           }
         }
+      }
+
+      @media (min-width: $desktop) {
+        margin-left: 37%;
+      }
+    }
+    .discount-price__second-block {
+      opacity: 1;
+      visibility: inherit;
+      transition: opacity 0.4s, visibility 0s linear 0.3s;
+      width: 50%;
+
+      button {
+        font-family: Manrope;
+        font-size: 13px;
+        font-weight: 700;
+        color: $white;
+        letter-spacing: 0.97px;
+        box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
+        border-radius: 6px;
+        background-color: #3c6da6;
+        padding: 15px 0px;
+        width: 100%;
+        min-width: 80px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      @media (min-width: $desktop) {
+        opacity: 0;
+        visibility: hidden;
+        // transition: opacity 0.4s, visibility 0s linear 0.3s;
+        transition: all 0.3s ease;
+        width: 0%;
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
+    outline: 1px solid $white;
+
+    .discount-price__second-block {
+      @media (min-width: $desktop) {
+        width: 60%;
+        opacity: 1;
+        visibility: visible;
+        transition-delay: 0s;
+      }
+    }
+
+    .discount-price__first-block {
+      animation-duration: 0.3s;
+      animation-name: slidein;
+      margin-left: 0%;
+
+      @keyframes slidein {
+        from {
+          margin-left: 37%;
+        }
+
+        to {
+          margin-left: 0%;
+        }
+      }
+      @media (min-width: $desktop) {
+        margin-left: 0%;
       }
     }
   }
@@ -700,12 +716,27 @@
       background-color: $white;
 
       .reasons__block-img {
-        background-color: #f8f9fc;
-        border-radius: 50%;
-        padding: 30px;
-        height: 125px;
-        width: 150px;
-        margin: 0 auto;
+        position: relative;
+
+        img {
+          position: relative;
+          z-index: 2;
+        }
+
+        &:after {
+          content: "";
+          background-color: #f8f9fc;
+          border-radius: 50%;
+          height: 130px;
+          width: 130px;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          top: -32px;
+          z-index: 1;
+        }
       }
 
       div {
@@ -923,6 +954,7 @@
           z-index: -1;
           opacity: 0.8;
           transition: opacity 0.5s ease;
+          object-fit: cover;
 
           @media (min-width: $desktop) {
             opacity: 0.6;
@@ -949,13 +981,13 @@
             }
 
             &:last-child {
-              font-family: "icomoon";
               font-size: 14px;
               font-weight: 400;
               letter-spacing: 0.35px;
               color: $white;
               &:before {
                 content: "\e902";
+                font-family: "icomoon";
                 margin-right: 5px;
               }
             }
@@ -1094,6 +1126,14 @@
     display: flex;
     border: none;
     padding: 25px 15px;
+
+    .slick-slide {
+      outline: none;
+
+      & > * {
+        outline: none;
+      }
+    }
 
     .slick-dots {
       display: flex;
@@ -1239,12 +1279,8 @@
         }
 
         &:last-child {
-          span {
-            p {
-              max-height: 90px;
-              overflow-x: hidden;
-            }
-          }
+          max-height: 130px;
+          overflow: hidden;
         }
       }
 

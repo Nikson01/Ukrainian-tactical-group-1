@@ -19,4 +19,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<!-- <div class="flex_row products columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>"> -->
+<?php
+    if( is_front_page() ) {
+        
+    }else{ ?>
+        <div class="flex_row flex_row_loop products columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>">
+    <?php }
+?>
