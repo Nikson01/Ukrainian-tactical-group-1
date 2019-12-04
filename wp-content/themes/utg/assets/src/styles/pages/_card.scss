@@ -1,0 +1,168 @@
+.product-image {
+  border: 1px solid #e8e8e8;
+  border-right: none;
+}
+
+.tinvwl_add_to_wishlist-text {
+  display: none;
+}
+
+.tinv-wishlist
+  .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-product-in-list:before {
+  content: "\e905";
+}
+
+.tinv-wraper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-viewport {
+  min-height: 285px;
+}
+
+.summary {
+  border: 1px solid #e8e8e8;
+}
+
+.flex_characteristic-list {
+  border-right: 1px solid #e8e8e8;
+  padding: 20px;
+}
+
+.posted_in {
+  color: #adb4c2;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin: 0px auto 15px;
+
+  a {
+    color: #adb4c2;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+
+    &:hover {
+      color: #343e48;
+    }
+  }
+}
+
+.product_title {
+  color: #374864;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 75%;
+  margin: 20px 0px;
+}
+
+.attribute {
+  tbody {
+    tr {
+      margin: 10px 0px;
+      display: flex;
+      justify-content: space-between;
+      td {
+        .name-price {
+          font-family: "Open Sans";
+          color: #343e48;
+          opacity: 0.8;
+          font-size: 14px;
+          font-weight: 600;
+        }
+
+        &:last-child {
+          font-family: "Open Sans";
+          font-size: 14px;
+          font-weight: 600;
+          color: #343e48;
+          opacity: 1;
+          margin-left: 40px;
+          min-width: 200px;
+          max-width: 200px;
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}
+
+.flex_buy_button {
+  padding: 20px;
+}
+
+.sku_wrapper {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #c2cbd5;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+
+  span {
+    &:first-child {
+      width: 100%;
+      font-family: "Open Sans";
+      color: #757e90;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  }
+
+  .discount-old_price {
+    strike {
+      color: #bebebe;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+  .discount-new_price {
+    color: #2a2c31;
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin-right: 15px;
+
+    span {
+      font-family: "Segoe UI";
+      font-weight: 700;
+      font-size: 30px;
+      color: #2a2c31;
+    }
+  }
+}
+
+.single_add_to_cart_button {
+  box-shadow: 0 2px 10px rgba(60, 109, 166, 0.55);
+  border-radius: 6px;
+  background-color: #3c6da6;
+  width: 270px;
+  padding: 10px;
+  font-family: Manrope;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.97px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid #3c6da6;
+  transition: 0.3s ease;
+  margin: 20px 0px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $white;
+    color: #3c6da6;
+    transition: 0.3s ease;
+  }
+}
