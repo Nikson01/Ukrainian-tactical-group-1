@@ -1,0 +1,125 @@
+.filter__header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.filter--style-premmerce .filter__title {
+  padding-top: 6px;
+  margin-left: 15px;
+}
+
+.filter__handle {
+  text-align: initial;
+  width: auto;
+}
+
+.filter__handle-ico {
+  width: auto;
+}
+
+.filter__handle-ico--minus,
+.filter__handle-ico--plus {
+  height: auto;
+}
+
+.filter__icon-minus,
+.filter__icon-plus {
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.16);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease, opacity 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.36);
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
+  }
+}
+
+.filter__icon-plus:before {
+  content: url(/wp-content/themes/utg/images/filter-up.png);
+}
+
+.filter__icon-minus:before {
+  content: url(/wp-content/themes/utg/images/filter-down.png);
+}
+
+.filter__icon-plus:before,
+.filter__icon-minus:before {
+  top: 23%;
+  left: 7px;
+}
+
+.filter__icon-minus:before,
+.filter__icon-plus:before,
+.filter__icon-plus:after {
+  background: none;
+}
+
+.filter__checkgroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__inner,
+.filter__inner--scroll {
+  overflow-y: initial;
+  max-width: 97%;
+  margin: 10px auto;
+}
+
+.filter--style-premmerce .filter__checkgroup-title {
+  margin-top: 4px;
+  font-size: 14px;
+  margin-left: 4px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #757e90;
+}
+
+.filter__checkgroup-count {
+  color: #c2cbd5;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 3px;
+
+  &:before {
+    content: "";
+  }
+
+  &:after {
+    content: "";
+  }
+}
+
+.filter__checkgroup-check {
+  border-radius: 5px;
+  border: 2px solid #3c6da6;
+
+  &:before {
+    background-color: #3c6da6;
+    border-radius: 1px;
+    height: 8px;
+    width: 8px;
+  }
+}
+
+.pc-active-filter__item-link {
+  display: block;
+  max-width: 90%;
+  margin: 10px auto;
+}
+
+.pc-active-filter__item-text-el {
+  font-family: "Open Sans";
+  color: #4a505f;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pc-active-filter__item-delete {
+  border-radius: 5px;
+  border: 2px solid #3c6da6;
+}
