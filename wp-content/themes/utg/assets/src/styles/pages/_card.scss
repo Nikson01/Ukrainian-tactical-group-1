@@ -1,6 +1,22 @@
+.onsale {
+  font-family: "Open Sans";
+  color: #2a3143;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  margin: 20px 0px 0px 20px;
+}
+
 .product-image {
   border: 1px solid #e8e8e8;
   border-right: none;
+}
+
+.single-product
+  div.product
+  .woocommerce-product-gallery
+  .woocommerce-product-gallery__trigger {
+  top: 75% !important;
 }
 
 .tinvwl_add_to_wishlist-text {
@@ -10,6 +26,8 @@
 .tinv-wishlist
   .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-product-in-list:before {
   content: "\e905";
+  font-family: "icomoon" !important;
+  margin: 15px 20px 0px 0px;
 }
 
 .tinv-wraper {
@@ -61,6 +79,10 @@
 
 .attribute {
   tbody {
+    display: block;
+    overflow: hidden;
+    height: 160px;
+    transition: height 0.3s ease;
     tr {
       margin: 10px 0px;
       display: flex;
@@ -88,6 +110,29 @@
       }
     }
   }
+
+  .show-btn {
+    font-family: "Open Sans";
+    color: #0070bb;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px dashed #0070bb;
+    color: #0070bb;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.none {
+  display: none;
+}
+
+.attribute tbody.show-btn-open {
+  overflow: inherit;
+  height: 240px;
+  transition: 0.3s height ease;
 }
 
 .flex_buy_button {

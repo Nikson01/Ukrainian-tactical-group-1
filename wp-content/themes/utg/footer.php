@@ -128,5 +128,22 @@ $('.top-slider-block').slick({
   nextArrow: '<button type="button"><span class="icon-arrow"></span></button>'
 });
 </script>
+<script>
+$(".attribute").append("<span class='show-btn'>Больше характерист...</span>");
+
+$(document).ready(function() {
+    $(".show-btn").click(function() {
+        var $this = $(this);
+        $('.show-btn').toggleClass("none");
+        $('.attribute tbody').toggleClass("show-btn-open");
+
+        // if ($this.hasClass("expanded")) {
+        //     $this.html("Свернуть");
+        // } else {
+        //     $this.html("Развернуть");
+        // }
+    });
+});
+</script>
 </body>
 </html>
