@@ -81,6 +81,7 @@
   tbody {
     display: block;
     overflow: hidden;
+    margin-bottom: 15px;
     height: 160px;
     transition: height 0.3s ease;
     tr {
@@ -133,6 +134,12 @@
   overflow: inherit;
   height: 240px;
   transition: 0.3s height ease;
+}
+
+.discount-rate {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
 }
 
 .flex_buy_button {
